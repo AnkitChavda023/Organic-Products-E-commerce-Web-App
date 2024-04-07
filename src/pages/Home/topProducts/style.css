@@ -1,0 +1,53 @@
+.topSelling_box h3{ 
+    padding-bottom: 15px;
+    font-size: 30px;
+    font-weight: 500;
+    position: relative;
+    margin-bottom: 25px;
+}
+.topSelling_box h3::after{ 
+    content: "";
+    width: 100%;
+    height: 3px;
+    background: #ccc;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+.topSelling_box h3::before{ 
+    content: "";
+    width: 28%;
+    height: 3px;
+    background: rgb(19, 181, 19);
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    z-index: 10;
+}
+
+.topSelling_box .items {
+    position: relative;
+    transition: all .3s ease-in-out;
+    padding: 10px 0px;
+}
+.topSelling_box .items:hover {
+    transform: translateY(-10px);
+}
+
+.topSelling_box .items .img{
+    width: 30%;
+    background: #ccc;
+}
+.topSelling_box .items .info{
+    width: 70%;
+}
+
+.topSelling_box .items .info h5{
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.831);
+    font-weight: 500;
+}
+.topSelling_box .items .info a{ 
+    text-decoration: none;   
+}
+

@@ -1,0 +1,126 @@
+.productThumb{
+    width: 100%;
+    height: auto;
+    border:1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 20px ;
+    overflow: hidden;
+    background: #f9f0f478;
+    padding: 12px;
+}
+.productThumb:hover{
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16), 0px 3px 6px rgba(0, 0, 0, 0.23);
+    transition: all .3s ease-in-out;
+}
+
+.productThumb .badge{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: inline-block;
+    background: red;
+    z-index: 10;
+    width: 30%;
+    height: 35px;
+    color: #fff;
+    padding: 10px 10px;
+    font-size: 15px;
+    border-bottom-right-radius:25px ;
+    border-top-left-radius: 20px;
+    text-transform: capitalize;
+} 
+
+.productThumb  .hot{background: #f74b81 !important;}
+.productThumb  .sale{background: #67bcee !important;}
+.productThumb  .new{background: #3bb77e !important ;}
+.productThumb  .best{background: #f59758 !important;}
+
+
+.productThumb .imageWrapper{
+    position: relative;
+    height: auto;
+    cursor: pointer;
+    width: 100%;
+    overflow: hidden;
+}
+.productThumb .imageWrapper .overLay{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    padding: 21px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transform: scale(0.8);
+}
+.productThumb:hover .imageWrapper .overLay{
+    opacity: 1;
+    transform: scale(1);
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.productThumb .imageWrapper .overLay ul{
+    background: #fff;
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #bce3c9;
+    overflow: hidden;
+}
+.productThumb .imageWrapper .overLay ul li{
+    margin-right: 0px !important;
+}
+.productThumb .imageWrapper .overLay ul li a{
+    display: block;
+    padding: 7.3px;
+    border-right: 1px solid #bce3c9 ;
+}
+.productThumb .imageWrapper .overLay ul li a svg{
+    color: #3bb77e !important;
+}
+.productThumb .imageWrapper .overLay ul li a:hover svg{
+     color: #000 !important;
+     opacity: 0.7;
+}
+.productThumb .imageWrapper img{ 
+    height: 200px;
+    width: 80px;
+    transition: all .3s ease-in-out;
+}
+.productThumb:hover .imageWrapper img{
+    transform: scale(1.1);
+}
+ .productThumb .info{
+   padding-left: 13px;
+   cursor: pointer;
+}
+.productThumb .info .title {
+    font-size: 21px;
+    font-weight: 500;
+}
+.productThumb .info .title a{
+    font-weight: 700;
+    font-size: 16px;
+    text-decoration: none;
+    color: #141615;
+}
+
+.productThumb .addButton{
+    width: 92%;
+    color: #000;
+    border-radius: 10px;
+    background-color:  #7afdc0;
+    display:inline-block;
+}
+.productThumb .addButton:hover{
+    color: #fff;
+    background: #27be78;
+    transition: all .2s ease-in-out;
+}
+.productThumb .addButton svg{
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+

@@ -1,0 +1,1104 @@
+{
+    "products":[
+        {
+            "tag" : "best",
+            "picture": "images/vegatable/cat-5.jpg",
+            "category": "Vegetables",
+            "description": "heirloom tomatoes, fresh from the vine.",
+            "company_name": "Farm Fresh Organics",
+            "price": 2.99,
+            "old_price": 3.99
+        },
+        {
+          
+            "picture": "images/Fruits/cat-17.jpg",
+            "category": "Fruits",
+            "description": "strawberries, bursting with sweetness.",
+            "company_name": "Berry Bliss Farm",
+            "price": 4.49,
+            "old_price": 5.99
+        },
+        {
+            
+            "picture": "images/dry fruit/dry-8.jpg",
+            "category": "Dry Fruits",
+            "description": "almonds, a healthy and satisfying snack.",
+            "company_name": "Nutty Nibbles",
+            "price": 7.99,
+            "old_price": 9.99
+        },
+        {
+            "tag" : "hot",
+            "picture": "images/Tea/cat-1.jpeg",
+            "category": "Beverages",
+            "description": "cold brew coffee, smooth and rich in flavor.",
+            "company_name": "Morning Mocha Roasters",
+            "price": 3.79,
+            "old_price": 4.99
+        },
+        {
+            
+            "picture": "images/dairy and milk/cat-6.jpg",
+            "category": "Dairy and Milk",
+            "description": "Creamy rganic whole milk, perfect for cereal or drinking.",
+            "company_name": "Happy Cow Dairy",
+            "price": 3.49,
+            "old_price": 4.49
+        },
+        {
+            "tag" : "new",
+            "picture": "images/bakery/cat-7.webp",
+            "category": "Bakery",
+            "description": "sourdough bread, baked fresh daily.",
+            "company_name": "Rustic Loaf Bakery",
+            "price": 4.99,
+            "old_price": 6.49
+        },
+        {
+            "tag" : "new",
+            "picture": "images/snack/cat-9.jpeg",
+            "category": "Snacks",
+            "description": "popcorn seasoned with sea salt and pepper.",
+            "company_name": "Popcorn Paradise",
+            "price": 2.99,
+            "old_price": 3.99
+        },
+       
+        {
+            
+            "picture": "images/vegatable/cat-6.jpg",
+            "category": "Vegetables",
+            "description": "spinach leaves, packed with nutrients.",
+            "company_name": "Green Leaf Farms",
+            "price": 1.99,
+            "old_price": 2.49
+        },
+        {
+            
+            "picture": "images/Fruits/cat-8.png",
+            "category": "Fruits",
+            "description": "blueberries, antioxidant-rich and delicious.",
+            "company_name": "Blueberry Haven",
+            "price": 6.49,
+            "old_price": 7.99
+        },
+        {
+            
+            "picture": "images/dry fruit/dry-9.jpg",
+            "category": "Dry Fruits",
+            "description": "cashews, a crunchy and nutritious snack.",
+            "company_name": "Cashew Crunch Co.",
+            "price": 8.29,
+            "old_price": 9.99
+        },
+        {
+            "tag" : "hot",
+            "picture": "images/Tea/cat-15.jpeg",
+            "category": "Beverages",
+            "description": "green tea with jasmine, soothing and aromatic.",
+            "company_name": "Zen Tea Garden",
+            "price": 4.99,
+            "old_price": 6.49
+        },
+        {
+            "tag" : "new",
+            "picture": "images/dairy and milk/cat-5.png",
+            "category": "Dairy and Milk",
+            "description": "vanilla almond milk, dairy-free and delicious.",
+            "company_name": "Almond Joy Dairy",
+            "price": 3.99,
+            "old_price": 5.49
+        },
+        {
+            "tag" : "best",
+            "picture": "images/bakery/cat-4.jpeg",
+            "category": "Bakery",
+            "description": "whole grain bagels with seeds on top.",
+            "company_name": "Seed & Grain Bakeshop",
+            "price": 3.79,
+            "old_price": 4.99
+        },
+        {
+            "tag" : "sale",
+            "picture": "images/snack/cat-5.jpeg",
+            "category": "Snacks",
+            "description": "roasted chickpeas with savory spices.",
+            "company_name": "Chickpea Delights",
+            "price": 3.99,
+            "old_price": 5.49
+        },
+        {
+            
+            "picture": "images/vegatable/cat-3.jpg",
+            "category": "Vegetables",
+            "description": "bell peppers, vibrant in color and flavor.",
+            "company_name": "Rainbow Farms",
+            "price": 3.49,
+            "old_price": 4.49
+        },
+        {
+            "picture": "images/Fruits/cat-4.png",
+            "category": "Fruits",
+            "description": " Organic apples, crisp and juicy.  ",
+            "company_name": "Apple Orchard Organics",
+            "price": 3.99,
+            "old_price": 5.49
+        },
+        {
+            "tag" : "sale",
+            "picture": "images/dry fruit/dry-9.jpg",
+            "category": "Dry Fruits",
+            "description": "dried figs, naturally sweet and chewy.",
+            "company_name": "Figgy Delights",
+            "price": 5.99,
+            "old_price": 7.49
+        },  {
+            
+            "picture": "images/Fruits/cat-10.jpg",
+            "category": "Beverages",
+            "description": "coconut water, hydrating and refreshing.",
+            "company_name": "Coconut Oasis",
+            "price": 2.99,
+            "old_price": 3.99
+        },
+        {
+           
+            "picture": "images/dairy and milk/cat-8.png",
+            "category": "Dairy and Milk",
+            "description": "goat cheese, creamy and tangy.",
+            "company_name": "Goat's Pride Dairy",
+            "price": 6.49,
+            "old_price": 8.49
+        },
+        {
+            
+            "picture": "images/bakery/cat-10.jpeg",
+            "category": "Bakery",
+            "description": "multigrain bread, hearty and wholesome.",
+            "company_name": "Whole Grain Bakery",
+            "price": 4.29,
+            "old_price": 5.99
+        },
+        {
+            "tag" : "hot",
+            "picture": "images/snack/cat-10.jpeg",
+            "category": "Snacks",
+            "description": "kale chips with a hint of garlic and lemon.",
+            "company_name": "Kale Krunch Co.",
+            "price": 3.79,
+            "old_price": 4.99
+        },
+        {
+            "tag" : "sale",
+            "picture": "images/vegatable/cat-2.jpg",
+            "category": "Vegetables",
+            "description": "carrots, crunchy and packed with beta-carotene.",
+            "company_name": "Carrot Crunch Farms",
+            "price": 2.49,
+            "old_price": 3.49
+        },
+        {
+            "tag" : "new",
+            "picture": "images/Fruits/cat-12.jpg",
+            "category": "Fruits",
+            "description": "oranges, bursting with vitamin C.",
+            "company_name": "Sunrise Citrus Co.",
+            "price": 4.99,
+            "old_price": 6.49
+        },
+        {
+            
+            "picture": "images/dry fruit/dry-17.jpeg",
+            "category": "Dry Fruits",
+            "description": "raisins, sweet and naturally sun-dried.",
+            "company_name": "Raisin Haven",
+            "price": 3.29,
+            "old_price": 4.49
+        },
+        {
+            
+            "picture": "images/Tea/cat-14.jpeg",
+            "category": "Beverages",
+            "description": "herbal tea sampler, a variety of flavors.",
+            "company_name": "Herbal Harmony",
+            "price": 5.99,
+            "old_price": 7.49
+        },
+        {
+            
+            "picture": "images/dairy and milk/cat-15.jpeg",
+            "category": "Dairy and Milk",
+            "description": "grass-fed butter, rich and creamy.",
+            "company_name": "Butter Bliss Dairy",
+            "price": 7.49,
+            "old_price": 9.99
+        },
+        {
+            
+            "picture": "images/bakery/cat-2.jpeg",
+            "category": "Bakery",
+            "description": "cinnamon rolls, gooey and irresistible.",
+            "company_name": "Cinnamon Treats Bakery",
+            "price": 6.99,
+            "old_price": 8.99
+        },
+        {
+            
+            "picture": "images/snack/cat-10.jpeg",
+            "category": "Snacks",
+            "description": "mixed nuts, a protein-packed snack.",
+            "company_name": "Nutty Mix Co.",
+            "price": 5.49,
+            "old_price": 6.99
+        },
+        {
+            
+            "picture": "images/vegatable/cat-10.jpg",
+            "category": "Vegetables",
+            "description": "broccoli florets, packed with vitamins and minerals.",
+            "company_name": "Broccoli Bounty",
+            "price": 2.79,
+            "old_price": 3.49
+        },
+        {
+            
+            "picture": "images/Fruits/cat-3.png",
+            "category": "Fruits",
+            "description": "Organic   peach, sweet and juicy.  ",
+            "company_name": "Grapevine Groves",
+            "price": 4.99,
+            "old_price": 6.49
+        },
+        {
+            
+            "picture": "images/dry fruit/dry-4.jpg",
+            "category": "Dry Fruits",
+            "description": "walnuts, a brain-boosting superfood.",
+            "company_name": "Walnut Wonder",
+            "price": 8.49,
+            "old_price": 9.99
+        },
+        {
+            
+            "picture": "images/Tea/cat-12.jpeg",
+            "category": "Beverages",
+            "description": "chamomile tea, calming and soothing.",
+            "company_name": "Chamomile Dreams",
+            "price": 3.49,
+            "old_price": 4.99
+        },
+        {
+            "tag" : "best",
+            "picture": "images/dairy and milk/cat-15.jpeg",
+            "category": "Dairy and Milk",
+            "description": "soy milk, lactose-free and delicious.",
+            "company_name": "Soyful Dairy",
+            "price": 4.99,
+            "old_price": 6.49
+        },
+        {  
+        "tag" : "best",  
+        "picture": "images/Fruits/cat-10.jpg",
+          "category": "Beverages",
+          "description": "coconut water with hydrating and refreshing.",
+          "company_name": "Coco Oasis",
+          "price": 2.99,
+          "old_price": 3.99
+      },
+      {
+        "tag" : "sale",  
+        "picture": "images/dairy and milk/cat-15.jpeg",
+          "category": "Dairy and Milk",
+          "description": "milk cheese ice Cream, creamy and tangy.",
+          "company_name": "Goat's Pride Dairy",
+          "price": 6.49,
+          "old_price": 7.99
+      },
+      {
+        "tag" : "sale",  
+        "picture": "images/bakery/cat-4.jpeg",
+          "category": "Bakery",
+          "description": "cinnamon rolls, warm and gooey.",
+          "company_name": "Cinnamon Heaven Bakery",
+          "price": 4.79,
+          "old_price": 5.99
+      },
+      {
+        "tag" : "new",  
+        "picture": "images/snack/cat-5.jpeg",
+          "category": "Snacks",
+          "description": "kale chips with a hint of sea salt, crispy and flavorful.",
+          "company_name": "Kale Crunch Co.",
+          "price": 3.49,
+          "old_price": 4.49
+      },{
+        "tag" : "sale",  
+        "picture": "images/vegatable/cat-2.jpg",
+          "category": "Vegetables",
+          "description": "carrots, crunchy and packed with vitamins.",
+          "company_name": "Carrot Crunch Farms",
+          "price": 1.99,
+          "old_price": 2.49
+      },
+      {
+        "tag" : "best",  
+        "picture": "images/Fruits/cat-27.jpg",
+          "category": "Fruits",
+          "description": "oranges, juicy and bursting with citrus flavor.",
+          "company_name": "Sunny Grove Orchards",
+          "price": 3.49,
+          "old_price": 4.49
+      },
+      {
+         
+        "picture": "images/dry fruit/dry-13.png",
+          "category": "Dry Fruits",
+          "description": "raisins, naturally sweet and chewy.",
+          "company_name": "Raisin Heaven",
+          "price": 4.99,
+          "old_price": 6.49
+      },
+      {
+          
+        "picture": "images/Tea/cat-5.jpeg",
+          "category": "Beverages",
+          "description": "herbal tea blend for relaxation and tranquility.",
+          "company_name": "Serene Tea Company",
+          "price": 3.99,
+          "old_price": 5.49
+      },  
+      {
+        
+        "picture": "images/dairy and milk/cat-14.jpg",
+          "category": "Dairy and Milk",
+          "description": "chocolate milk made with real cocoa.",
+          "company_name": "Choco Joy Dairy",
+          "price": 4.99,
+          "old_price": 6.49
+      },
+      {
+        "tag" : "sale",  
+        "picture": "images/bakery/cat-2.jpeg",
+          "category": "Bakery",
+          "description": "whole grain baguettes, crusty and delicious.",
+          "company_name": "Artisan Breadworks",
+          "price": 3.49,
+          "old_price": 4.49
+      },
+      {
+        "tag" : "new",  
+        "picture": "images/snack/cat-1.jpeg",
+          "category": "Snacks",
+          "description": "rice cakes with a layer of dark chocolate.",
+          "company_name": "Cocoa Crunch Snacks",
+          "price": 2.79,
+          "old_price": 3.49
+      },
+      {
+        "tag" : "sale",  
+        "picture": "images/vegatable/cat-12.jpeg",
+          "category": "Vegetables",
+          "description": "broccoli florets, perfect for stir-fries and salads.",
+          "company_name": "Broccoli Bliss Farms",
+          "price": 2.49,
+          "old_price": 3.29
+      },
+      {
+         
+        "picture": "images/Fruits/cat-17.jpg",
+          "category": "Fruits",
+          "description": "mangoes, ripe and bursting with tropical flavor.",
+          "company_name": "Mango Madness Orchards",
+          "price": 5.99,
+          "old_price": 7.49
+      },
+      {
+         
+        "picture": "images/dry fruit/dry-8.jpg",
+          "category": "Dry Fruits",
+          "description": "walnuts, a rich source of omega-3 fatty acids.",
+          "company_name": "Walnut Wonder",
+          "price": 9.99,
+          "old_price": 11.99
+      },
+      {
+         
+        "picture": "images/Tea/cat-15.jpeg",
+          "category": "Beverages",
+          "description": "kombucha, naturally fermented and probiotic-rich.",
+          "company_name": "Kombucha Culture Co.",
+          "price": 4.49,
+          "old_price": 5.99
+      },
+      {
+         
+        "picture": "images/dairy and milk/cat-5.png",
+          "category": "Dairy and Milk",
+          "description": "goat milk soap, gentle and moisturizing for all skin types.",
+          "company_name": "Goat's Milk Soaps",
+          "price": 6.79,
+          "old_price": 8.49
+      },
+      {
+         
+        "picture": "images/bakery/cat-7.webp",
+          "category": "Bakery",
+          "description": "banana bread, moist and flavorful.",
+          "company_name": "Banana Bakery",
+          "price": 4.29,
+          "old_price": 5.49
+      },
+      {
+         
+        "picture": "images/snack/cat-9.jpeg",
+          "category": "Snacks",
+          "description": "trail mix with a variety of nuts and dried fruits.",
+          "company_name": "Trailblazer Snacks",
+          "price": 5.49,
+          "old_price": 6.99
+      },
+      {
+         
+        "picture": "images/vegatable/cat-5.jpg",
+          "category": "Vegetables",
+          "description": "zucchini, versatile and delicious in various dishes.",
+          "company_name": "Zesty Zucchini Farms",
+          "price": 2.29,
+          "old_price": 2.99
+      },
+      {
+         
+        "picture": "images/Fruits/cat-8.png",
+          "category": "Fruits",
+          "description": "Organic grapes, sweet and juicy. ",
+          "company_name": "Vineyard Fresh Produce",
+          "price": 4.99,
+          "old_price": 6.49
+      },
+      {
+         
+        "picture": "images/dry fruit/dry-9.jpg",
+          "category": "Dry Fruits",
+          "description": "pistachios, lightly salted and full of flavor.",
+          "company_name": "Pistachio Paradise",
+          "price": 10.49,
+          "old_price": 12.99
+      },
+      {
+         
+        "picture": "images/Tea/cat-1.jpeg",
+          "category": "Beverages",
+          "description": "matcha green tea latte mix, creamy and energizing.",
+          "company_name": "Matcha Marvels",
+          "price": 6.99,
+          "old_price": 8.49
+      },
+      {
+         
+        "picture": "images/dairy and milk/cat-6.jpg",
+          "category": "Dairy and Milk",
+          "description": "chocolate ice cream made with real cocoa.",
+          "company_name": "Choco Chill Creamery",
+          "price": 5.99,
+          "old_price": 7.49
+      },
+      {
+         
+        "picture": "images/bakery/cat-4.jpeg",
+          "category": "Bakery",
+          "description": "cinnamon raisin bagels, warm and chewy.",
+          "company_name": "Cinnamon Raisin Bakery",
+          "price": 3.99,
+          "old_price": 5.49
+      },
+      {
+         
+        "picture": "images/snack/cat-5.jpeg",
+          "category": "Snacks",
+          "description": "roasted seaweed snacks, crispy and flavorful.",
+          "company_name": "Seaweed Sensations",
+          "price": 3.49,
+          "old_price": 4.99
+      },
+      {
+         
+        "picture": "images/vegatable/cat-6.jpg",
+          "category": "Vegetables",
+          "description": "kale, perfect for salads and smoothies.",
+          "company_name": "Kaleidoscope Farms",
+          "price": 2.49,
+          "old_price": 3.29
+      },
+      {
+        "tag" : "sale",  
+        "picture": "images/Fruits/cat-4.png",
+          "category": "Fruits",
+          "description": "Organic  peaches, juicy and fragrant.  ",
+          "company_name": "Peachy Keen Orchards",
+          "price": 3.99,
+          "old_price": 5.49
+      },
+      {
+        "tag" : "sale",  
+        "picture": "images/dry fruit/dry-17.jpeg",
+          "category": "Dry Fruits",
+          "description": "dried apricots, naturally sweet and chewy.",
+          "company_name": "Apricot Delights",
+          "price": 6.49,
+          "old_price": 7.99
+      },
+      {
+        "tag" : "new",  
+        "picture": "images/Fruits/cat-10.jpg",
+          "category": "Beverages",
+          "description": "hibiscus tea with natural fruity flavors.",
+          "company_name": "Hibiscus Haven",
+          "price": 4.29,
+          "old_price": 5.49
+      },
+      {
+        "tag" : "best",  
+        "picture": "images/dairy and milk/cat-8.png",
+          "category": "Dairy and Milk",
+          "description": "almond milk, creamy and delicious.",
+          "company_name": "Almond Joy Dairy",
+          "price": 3.99,
+          "old_price": 4.99
+      },
+      {
+        "tag" : "best",  
+        "picture": "images/bakery/cat-10.jpeg",
+          "category": "Bakery",
+          "description": "sourdough breadsticks, perfect for dipping.",
+          "company_name": "Rustic Bakes",
+          "price": 4.79,
+          "old_price": 6.49
+      },
+      {
+        "tag" : "best",  
+        "picture": "images/snack/cat-10.jpeg",
+          "category": "Snacks",
+          "description": "mixed nuts with dried fruits, a satisfying snack.",
+          "company_name": "Nutty Delights",
+          "price": 5.99,
+          "old_price": 7.49
+      },
+      {
+          
+        "picture": "images/vegatable/cat-3.jpg",
+          "category": "Vegetables",
+          "description": "spinach leaves, packed with nutrients.",
+          "company_name": "Green Leaf Farms",
+          "price": 1.99,
+          "old_price": 2.49
+      },
+      {
+          
+        "picture": "images/Fruits/cat-12.jpg",
+          "category": "Fruits",
+          "description": "watermelons, sweet and refreshing.",
+          "company_name": "Watermelon Wonderland",
+          "price": 6.99,
+          "old_price": 8.49
+      },
+      {
+          
+        "picture": "images/dry fruit/dry-4.jpg",
+          "category": "Dry Fruits",
+          "description": "dried cranberries, tart and chewy.",
+          "company_name": "Cranberry Craze",
+          "price": 4.49,
+          "old_price": 5.99
+      },
+      {
+          
+        "picture": "images/Tea/cat-14.jpeg",
+          "category": "Beverages",
+          "description": "ginger lemonade, zesty and invigorating.",
+          "company_name": "Ginger Zing Drinks",
+          "price": 3.99,
+          "old_price": 4.99
+      },
+      {
+          
+        "picture": "images/dairy and milk/cat-15.jpeg",
+          "category": "Dairy and Milk",
+          "description": "probiotic yogurt with live cultures.",
+          "company_name": "Probiotic Paradise Dairy",
+          "price": 2.99,
+          "old_price": 3.99
+      },
+      {
+          
+        "picture": "images/bakery/cat-2.jpeg",
+          "category": "Bakery",
+          "description": "multigrain sandwich bread, hearty and wholesome.",
+          "company_name": "Whole Grain Bakery",
+          "price": 3.79,
+          "old_price": 4.99
+      },
+      {
+          
+        "picture": "images/snack/cat-5.jpeg",
+          "category": "Snacks",
+          "description": "apple chips, crispy and naturally sweet.",
+          "company_name": "Apple Crunch Snacks",
+          "price": 2.99,
+          "old_price": 3.99
+      },
+      {
+          
+        "picture": "images/vegatable/cat-2.jpg",
+          "category": "Vegetables",
+          "description": "Organic cucumbers, crisp and refreshing.",
+          "company_name": "Cool Cucumber Farms",
+          "price": 1.49,
+          "old_price": 1.99
+      },
+      {
+          
+        "picture": "images/Fruits/cat-3.png",
+          "category": "Fruits",
+          "description": "kiwi fruit, tangy and packed with vitamin C.",
+          "company_name": "Kiwi Kingdom Orchards",
+          "price": 2.49,
+          "old_price": 3.49
+      },
+      {
+          
+        "picture": "images/dry fruit/dry-4.jpg",
+          "category": "Dry Fruits",
+          "description": "dried mango slices, naturally sweet and chewy.",
+          "company_name": "Mango Magic",
+          "price": 7.49,
+          "old_price": 8.99
+      },
+      {
+          
+        "picture": "images/Tea/cat-12.jpeg",
+          "category": "Beverages",
+          "description": "chamomile tea for relaxation and stress relief.",
+          "company_name": "Chamomile Comfort",
+          "price": 3.49,
+          "old_price": 4.49
+      },
+      {
+        "tag" : "best",  
+        "picture": "images/snack/cat-10.jpeg",
+          "category": "Dairy and Milk",
+          "description": "grass-fed butter, creamy and delicious.",
+          "company_name": "Grassland Dairy",
+          "price": 5.99,
+          "old_price": 7.49
+      },
+      {
+        "tag" : "sale",  
+        "picture": "images/bakery/cat-2.jpeg",
+          "category": "Bakery",
+          "description": "whole grain bagels with seeds on top.",
+          "company_name": "Seed & Grain Bakeshop",
+          "price": 3.79,
+          "old_price": 4.99
+      },
+      {
+        "tag" : "best",  
+        "picture": "images/snack/cat-1.jpeg",
+          "category": "Snacks",
+          "description": "roasted chickpeas with savory spices.",
+          "company_name": "Chickpea Delights",
+          "price": 3.99,
+          "old_price": 5.49
+      },
+      {
+        "tag" : "new",  
+        "picture": "images/vegatable/cat-10.jpg",
+          "category": "Vegetables",
+          "description": "bell peppers, vibrant in color and flavor.",
+          "company_name": "Rainbow Farms",
+          "price": 3.49,
+          "old_price": 4.49
+      },
+      {
+          
+        "picture": "images/Fruits/cat-3.png",
+          "category": "Fruits",
+          "description": "apples, crisp and juicy.",
+          "company_name": "Apple Orchard Organics",
+          "price": 3.99,
+          "old_price": 5.49
+      },
+      {
+          
+        "picture": "images/dry fruit/dry-13.png",
+          "category": "Dry Fruits",
+          "description": "dried figs, naturally sweet and chewy.",
+          "company_name": "Figgy Delights",
+          "price": 5.99,
+          "old_price": 7.49
+      },
+      {
+          
+        "picture": "images/Tea/cat-5.jpeg",
+          "category": "Beverages",
+          "description": "herbal tea blend for relaxation and tranquility.",
+          "company_name": "Serene Tea Company",
+          "price": 3.99,
+          "old_price": 5.49
+      },  {
+          
+        "picture": "images/dairy and milk/cat-14.jpg",
+          "category": "Snacks",
+          "description": "rice crackers with sesame seeds, crunchy and flavorful.",
+          "company_name": "Sesame Snap Snacks",
+          "price": 3.99,
+          "old_price": 4.99
+      },
+      {
+        "tag" : "best",  
+        "picture": "images/bakery/cat-2.jpeg",
+          "category": "Vegetables",
+          "description": " Organic radishes, crisp and peppery.",
+          "company_name": "Radish Ranch",
+          "price": 1.49,
+          "old_price": 1.99
+      },
+      {
+        "tag" : "sale",  
+        "picture": "images/snack/cat-1.jpeg",
+          "category": "Fruits",
+          "description": "Organic pineapples, juicy and tropical.",
+          "company_name": "Pineapple Paradise Farms",
+          "price": 5.49,
+          "old_price": 6.99
+      },
+      {
+          
+        "picture": "images/dairy and milk/cat-14.jpg",
+          "category": "Dry Fruits",
+          "description": "Organic pecans, rich and buttery.",
+          "company_name": "Pecan Perfection",
+          "price": 11.49,
+          "old_price": 13.99
+      },
+      {
+          
+        "picture": "images/Fruits/cat-10.jpg",
+          "category": "Beverages",
+          "description": "apple cider vinegar with the mother, raw and unpasteurized.",
+          "company_name": "Vinegar Valley",
+          "price": 3.99,
+          "old_price": 4.99
+      },
+      {
+          
+        "picture": "images/dry fruit/dry-13.png",
+          "category": "Dairy and Milk",
+          "description": "Greek yogurt, creamy and tangy.",
+          "company_name": "Greek Yogurt Delights",
+          "price": 4.79,
+          "old_price": 5.99
+      },
+      {
+        "tag" : "best",  
+        "picture": "images/Fruits/cat-10.jpg",
+          "category": "Bakery",
+          "description": "whole grain pita bread, perfect for sandwiches.",
+          "company_name": "Pita Paradise Bakery",
+          "price": 2.99,
+          "old_price": 3.99
+      },
+      {
+        "tag" : "new",  
+        "picture": "images/snack/cat-1.jpeg",
+          "category": "Snacks",
+          "description": "roasted almonds with sea salt, a satisfying snack.",
+          "company_name": "Salted Almond Snacks",
+          "price": 4.49,
+          "old_price": 5.49
+      },
+      {
+          
+        "picture": "images/vegatable/cat-12.jpeg",
+          "category": "Vegetables",
+          "description": "cauliflower, versatile and nutritious.",
+          "company_name": "Cauliflower Corner",
+          "price": 2.29,
+          "old_price": 2.99
+      },
+      {
+          
+        "picture": "images/Fruits/cat-27.jpg",
+          "category": "Fruits",
+          "description": "Organic raspberries, tart and juicy.",
+          "company_name": "Raspberry Ridge Orchards",
+          "price": 4.99,
+          "old_price": 6.49
+      },
+      {
+          
+        "picture": "images/dry fruit/dry-9.jpg",
+          "category": "Dry Fruits",
+          "description": "dates, naturally sweet and chewy.",
+          "company_name": "Date Delights",
+          "price": 6.99,
+          "old_price": 8.49
+      },
+      {
+          
+        "picture": "images/Tea/cat-15.jpeg",
+          "category": "Beverages",
+          "description": "yerba mate tea, energizing and invigorating.",
+          "company_name": "Mate Master",
+          "price": 5.49,
+          "old_price": 6.99
+      },
+      {
+          
+        "picture": "images/dairy and milk/cat-15.jpeg",
+          "category": "Dairy and Milk",
+          "description": "lactose-free cheese, creamy and delicious.",
+          "company_name": "Lactose-Free Cheese Co.",
+          "price": 6.49,
+          "old_price": 7.99
+      },
+      {
+          
+        "picture": "images/bakery/cat-2.jpeg",
+          "category": "Bakery",
+          "description": "multigrain sandwich rolls, hearty and wholesome.",
+          "company_name": "Multigrain Bakery",
+          "price": 3.79,
+          "old_price": 4.99
+      },
+      {
+          
+        "picture": "images/snack/cat-5.jpeg",
+          "category": "Snacks",
+          "description": "vegetable chips, crispy and flavorful.",
+          "company_name": "Veggie Crunch Snacks",
+          "price": 3.99,
+          "old_price": 4.99
+      },
+      {
+          
+        "picture": "images/vegatable/cat-2.jpg",
+          "category": "Vegetables",
+          "description": "sweet potatoes, rich in vitamins and fiber.",
+          "company_name": "Sweet Potato Fields",
+          "price": 2.49,
+          "old_price": 3.29
+      },
+      {
+          
+        "picture": "images/Fruits/cat-12.jpg",
+          "category": "Fruits",
+          "description": "blueberries, antioxidant-rich and delicious.",
+          "company_name": "Blueberry Bliss Orchards",
+          "price": 5.99,
+          "old_price": 7.49
+      },
+      {
+        "tag" : "best",  
+        "picture": "images/dry fruit/dry-17.jpeg",
+          "category": "Dry Fruits",
+          "description": "cashews, creamy and satisfying.",
+          "company_name": "Cashew Comfort",
+          "price": 9.99,
+          "old_price": 11.99
+      },
+      {
+        "tag" : "sale",  
+        "picture": "images/Tea/cat-14.jpeg",
+          "category": "Beverages",
+          "description": "herbal iced tea blend, refreshing and caffeine-free.",
+          "company_name": "Herbal Chill",
+          "price": 4.49,
+          "old_price": 5.99
+      },
+      {
+        
+        "picture": "images/dairy and milk/cat-15.jpeg",
+          "category": "Dairy and Milk",
+          "description": "sheep milk cheese, creamy and flavorful.",
+          "company_name": "Sheep's Delight Dairy",
+          "price": 7.49,
+          "old_price": 8.99
+      },
+      {
+          
+        "picture": "images/bakery/cat-2.jpeg",
+          "category": "Bakery",
+          "description": "gluten-free bread loaf, soft and delicious.",
+          "company_name": "Gluten-Free Delights",
+          "price": 5.99,
+          "old_price": 7.49
+      },
+      {
+        "tag" : "new",  
+        "picture": "images/snack/cat-5.jpeg",
+          "category": "Snacks",
+          "description": "popcorn kernels for homemade movie nights.",
+          "company_name": "Popcorn Paradise",
+          "price": 2.99,
+          "old_price": 3.99
+      },
+      {
+          
+        "picture": "images/vegatable/cat-6.jpg",
+          "category": "Vegetables",
+          "description": "bell peppers, vibrant and crunchy.",
+          "company_name": "Pepper Patch Farms",
+          "price": 2.79,
+          "old_price": 3.49
+      },
+      {
+        
+        "picture": "images/Fruits/cat-27.jpg",
+          "category": "Fruits",
+          "description": "Organic strawberries, sweet and juicy.",
+          "company_name": "Strawberry Fields Forever",
+          "price": 4.99,
+          "old_price": 6.49
+      },
+      {
+       
+        "picture": "images/dry fruit/dry-9.jpg",
+          "category": "Dry Fruits",
+          "description": "dried figs, naturally sweet and chewy.",
+          "company_name": "Figgy Delights",
+          "price": 7.49,
+          "old_price": 8.99
+      },
+        {
+            "tag" : "best",
+            "picture": "images/Tea/cat-1.jpeg",
+            "category": "Beverages",
+            "description": "ginger lemonade, zesty and refreshing.",
+            "company_name": "Ginger Zing Beverages",
+            "price": 3.99,
+            "old_price": 4.99
+        },
+        {
+            "tag" : "sale",
+            "picture": "images/snack/cat-10.jpeg",
+            "category": "Dairy and Milk",
+            "description": "vanilla bean ice cream, creamy and indulgent.",
+            "company_name": "Vanilla Dreams Dairy",
+            "price": 5.99,
+            "old_price": 7.49
+        },
+        {
+            "tag" : "sale",
+            "picture": "images/bakery/cat-10.jpeg",
+            "category": "Bakery",
+            "description": "whole grain bagels, chewy and satisfying.",
+            "company_name": "Grainy Goodness Bakery",
+            "price": 3.49,
+            "old_price": 4.49
+        },
+        {
+            "tag" : "new",
+            "picture": "images/snack/cat-1.jpeg",
+            "category": "Snacks",
+            "description": "roasted chickpeas with garlic and herbs and crunchy.",
+            "company_name": "Chickpea Crunch Snacks",
+            "price": 2.99,
+            "old_price": 3.99
+        },
+        {
+            
+            "picture": "images/vegatable/cat-10.jpg",
+            "category": "Vegetables",
+            "description": "asparagus spears, tender and delicious.",
+            "company_name": "Asparagus Acres",
+            "price": 3.49,
+            "old_price": 4.49
+        },
+        {
+            
+            "picture": "images/Fruits/cat-3.png",
+            "category": "Fruits",
+            "description": "Organic cherries, sweet and juicy.",
+            "company_name": "Cherry Blossom Orchards",
+            "price": 6.99,
+            "old_price": 8.49
+        },
+        {
+            
+            "picture": "images/dry fruit/dry-4.jpg",
+            "category": "Dry Fruits",
+            "description": "hazelnuts, crunchy and nutritious.",
+            "company_name": "Hazelnut Heaven",
+            "price": 8.49,
+            "old_price": 9.99
+        },
+        {
+            
+            "picture": "images/Tea/cat-12.jpeg",
+            "category": "Beverages",
+            "description": "fruit-infused water, refreshing and hydrating.",
+            "company_name": "Fruit Splash Beverages",
+            "price": 2.49,
+            "old_price": 3.49
+        },
+        {
+            
+            "picture": "images/dairy and milk/cat-15.jpeg",
+            "category": "Dairy and Milk",
+            "description": "strawberry yogurt parfait, creamy and fruity.",
+            "company_name": "Berry Blast Dairy",
+            "price": 4.79,
+            "old_price": 5.99
+        },
+        {
+            
+            "picture": "images/bakery/cat-4.jpeg",
+            "category": "Bakery",
+            "description": "whole grain dinner rolls, soft and fluffy.",
+            "company_name": "Whole Grain Delights",
+            "price": 2.99,
+            "old_price": 3.99
+        },
+        {
+            
+            "picture": "images/snack/cat-5.jpeg",
+            "category": "Snacks",
+            "description": "trail mix bars with oats and nuts, perfect for on-the-go.",
+            "company_name": "Trail Mix Treats",
+            "price": 4.49,
+            "old_price": 5.49
+        },
+        {
+            
+            "picture": "images/vegatable/cat-10.jpg",
+            "category": "Vegetables",
+            "description": "green beans, crisp and flavorful.",
+            "company_name": "Green Bean Garden",
+            "price": 2.29,
+            "old_price": 2.99
+        },
+        {
+            "tag" : "best",
+            "picture": "images/Fruits/cat-3.png",
+            "category": "Fruits",
+            "description": "pears, juicy and refreshing.",
+            "company_name": "Organic  Pear Perfection Orchards",
+            "price": 5.49,
+            "old_price": 6.99
+        },
+        {
+            "tag" : "new",
+            "picture": "images/dry fruit/dry-8.jpg",
+            "category": "Dry Fruits",
+            "description": "pine nuts, buttery and rich in essential nutrients.",
+            "company_name": "Pine Nut Paradise",
+            "price": 13.99,
+            "old_price": 15.99
+        }
+      ]
+      
+      
+         
+      
+      
+}

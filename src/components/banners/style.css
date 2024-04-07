@@ -1,0 +1,38 @@
+.bannerSection{
+    padding: 35px 0px;
+}
+.bannerSection .box{
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 10px ;
+    cursor: pointer;
+}
+.bannerSection .box:hover {
+    transform: translateY(-12px) ;
+}
+
+.bannerSection .box h3{
+    color: rgba(0, 0, 0, 0.703);
+    position: absolute;
+    top: 10%; 
+    left: 10%;
+}
+.bannerSection .box button{
+    font-size: 14px;
+    text-transform: capitalize;
+    width: 25%;
+    color: #fff;
+    /* padding: 10px 10px; */
+    border-radius: 10px;
+    background: #2bb77e;
+    position: absolute;
+    bottom: 20%; 
+    left: 10%;
+}
+.bannerSection .box button:hover{
+    width: 30%;
+    background-color: orange;
+}
+.bannerSection .box button .arrowp{
+    padding-left:10px ;
+}

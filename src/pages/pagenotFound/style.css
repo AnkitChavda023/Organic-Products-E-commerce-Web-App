@@ -1,0 +1,32 @@
+.notFound{
+    width: 100%;
+    height: auto;
+    padding: 45px 0px;
+}
+.notFound .box{
+    width: 50%;
+    height: auto;
+    padding: 30px 30px;
+    text-align: center;
+    margin: auto;
+}
+.notFound .box h1{
+    font-size: 60px;
+    font-weight: 500;
+    color: black;
+    opacity: 0.7;
+}
+.notFound .box p{
+    color: #000;
+    font-size: 20px;
+    margin-top: 2518;
+}
+.notFound .box .btn{
+  background: #3bb77e;
+  color: #fff;
+  transition: all .3s ease-in-out;
+}
+
+.notFound .box .btn:hover{
+    background: orange;
+}

@@ -1,38 +1,251 @@
-.App {
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/js/bootstrap.min.js');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css");
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+#root{
+  zoom: 100%;
+}
+body{
+  font-family: "Roboto", sans-serif;
+}
+.container-fluid{
+  padding: 0px 35px;
+}
+
+.cursor{
+  cursor: pointer;
+}
+.bg-g {
+  background: #3bb77e;
+}
+.bg-success {
+  background: #3bb77e;
+}
+.text-g{
+  color: #3bb77e;
+}
+.btn-g{
+  background: #3bb77e;
+}
+.hd{
+  margin-bottom: 20px;
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.transition{
+  transition: all .2s ease-in-out;
+}
+
+.price{
+  padding: 5px 7px 0px 0px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #057a43;
+}
+.oldPrice{
+  padding: 8px 0px 0px 0px;
+  font-size: 14px;
+  color: #06060662;
+  text-decoration :line-through;
+}
+
+.listingPage{
+  width: 100%;
+  height: auto;
+  padding: 35px 0px;
+}
+.breadCrum{
+  width: 100%;
+  height: auto;
+  padding: 35px 25px;
+  background: url(../src/assets/images/newsLatterBannerbg.png);
+  border-radius: 20px;
+}
+.breadCrum h1{
+  color: #000;
+  opacity: 0.8;
+  font-size: 40px;
+  font-weight: bold;
+}
+.breadCrum p a{
+  text-decoration: none;
+}
+
+.sidebaWrpper {
+  padding-top: 20px;
+  max-width: 22%;
+  flex: 0 0 22%;
+} 
+
+.rightContent{max-width: 85%;
+flex: 0 0 78%;}
+
+.sidebaWrpper h3{ 
+  padding-bottom: 15px;
+  font-size: 25px;
+  font-weight: 500;
+  position: relative;
+  margin-bottom: 25px;
+}
+.sidebaWrpper h3::after{ 
+  content: "";
+  width: 100%;
+  height: 3px;
+  background: #ccc;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+.sidebaWrpper h3::before{ 
+  content: "";
+  width: 28%;
+  height: 3px;
+  background: rgb(19, 181, 19);
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  z-index: 10;
+}
+
+.sidebaWrpper .sidebar .card{
+  padding: 20px;
+  border-radius: 7px !important;
+  margin-bottom: 20px;
+}
+.sidebaWrpper .sidebar .card .catList{
+  padding: 8px 8px;
+}
+.sidebaWrpper .sidebar .card .catList .catItem{
+  border: 1px solid rgba(0, 0, 0, 0.107);
+  border-radius: 5px;
+  background: #e0dfdf10;
+  padding: 10px 5px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  transition: all 0.3s ease-in-out;
+}
+.sidebaWrpper .sidebar .card .catList .catItem:hover{
+  border: 2px solid #2fcb82;
+}
+
+.sidebaWrpper .sidebar .card .catList .catItem .img img{
+  margin-left: 10px;
+}
+
+
+.sidebaWrpper .sidebar .card .catList .catItem .rounded-circle{
+  padding: 8px 10px;
+  background: #73fcbc;
+  color: #000;
+  margin-right: 7px;
+}
+
+.text-g{
+  color: #3bb77e;
+}
+
+.priceRange span{
+  font-size: 18px;
+}
+.filters{
+  padding: 25px 0px ;
+}
+.filters h5{ font-weight: 600; margin-bottom: 10px; font-size: 20px;}
+.filters ul{
+  margin-left: -45px;
+  max-height: 150px;
+  overflow-y: scroll;
+}
+.filters ul::-webkit-scrollbar{width: 10px !important;}
+.filters ul::-webkit-scrollbar-thumb{background: #ccc;}
+.filters ul li{
+  width: 100%;
+  margin-bottom: 0px;
+  list-style: none;
+}
+
+.sidebaWrpper .sidebar .card .btn{
+  color: #fff;
+  padding : 10px 25px;
+  background: #3bb77e !important;
+  transition: all .3s ease-in-out;
+  border-radius: 5px;
+  text-transform: capitalize ;
+  width: 150px !important;
+}
+.sidebaWrpper .sidebar .card .btn:hover{
+  background: orange !important;
+}
+.sidebaWrpper .sidebar .topPro{
+  max-height: 400px !important;
+ overflow-y: scroll;
+}
+.sidebaWrpper .sidebar .topPro::-webkit-scrollbar{width: 10px !important;}
+.sidebaWrpper .sidebar .topPro::-webkit-scrollbar-thumb{background: #ccc;}
+
+.rightContent .topStrip{
+  padding: 0px 25px;
+}
+.rightContent .topStrip p{
+  font-size: 20px;
+}
+.rightContent .topStrip .showBtn {
+  margin-left: 400px;
+}
+.rightContent .topStrip .showBtn button,.rightContent .topStrip .showBtn1 button{
+  font-size: 16px;
+  padding: 7px 7px;
+  margin: 7px 40px;
+  justify-content: space-around;
+  text-transform: capitalize;
+  color: #000000a1;
+  border: 1px solid rgba(0, 0, 0, 0.158);
+  border-radius: 5px;
+}
+.rightContent .topStrip .showBtn button svg, .rightContent .topStrip .showBtn1 button svg{
+  padding-right: 10px;
+  font-size: 30px;
+}
+
+.rightContent .topStrip .showBtn button:hover , .rightContent .topStrip .showBtn1 button:hover{
+  border: 1px solid #3bb77e;
+}
+
+.addCartSection{width: 100%; height: auto;}
+
+.addCartSection .counterSec{
+  width: 90px; 
+  height: 50px; 
+  border-radius: 10px; 
+  border: 1px solid #3bb77e !important; 
+  overflow: hidden; 
+  padding: 5px;
+  position: relative;
+}
+
+.addCartSection .counterSec input{
+  width:30px;
+  height: 40px; 
+  padding-bottom: 3px ; 
   text-align: center;
+  border: 0px; 
+  outline: none !important;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+.addCartSection .counterSec .arrow{ position: relative;}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.addCartSection .counterSec .arrow {
+  /* position: absolute; */
+  cursor: pointer;
 }

@@ -1,0 +1,144 @@
+.nav{
+    width: 100%;
+    height: 76px;
+    margin: auto;
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.nav .catTab{
+    background-color: #2bb77e !important;
+    padding: 8px 20px !important;
+    font-size: 20px !important;
+    text-transform: capitalize !important;
+}
+.nav nav ul li button{
+    text-transform: capitalize !important;
+    color: #078b56a9 !important;
+    padding: 20px 8px !important;
+}
+.nav nav ul li button a{
+    color: rgba(0, 0, 0, 0.8) !important;
+    text-decoration: none !important;
+    font-size: 14px !important; 
+}
+.nav .part3 .phNo svg{
+    font-size: 35px !important;
+    opacity: 0.8;
+
+} 
+.nav .part3 .phNo h3{
+    margin: 5px;
+    font-size: 25px;
+    line-height: 15px;
+    color: #2bb77e;
+    font-weight: 400;
+}
+.nav .part3 .phNo p{
+    font-size: 12px;
+    margin: 5px;
+    opacity: 0.8;
+}
+.nav nav  ul li{
+    position: relative;
+}
+.nav nav .dropdownMenuHome {
+    position: absolute;
+    left: 0px;
+    top: 110%;
+    width: 200px;
+    height: auto;
+    background-color: #fff;
+    box-shadow: 5px 5px 15px rgb(0 0 0  / 30%);
+    list-style: none;
+    border-radius: 8px;
+    color: rgba(0, 0, 0, 0.438);
+    z-index: 10;
+    visibility: hidden;
+    transition: all .01s ease-in-out;
+}
+.nav nav .dropdown-Megamenu {
+    position: absolute;
+    left: 0px;
+    top: 120%;
+    width: 100%;
+    height: 350px;
+    background-color: #fff;
+    box-shadow: 5px 5px 15px rgb(0 0 0  / 30%);
+    border-radius: 6px;
+    color: rgba(0, 0, 0, 0.438);
+    z-index: 100;
+    visibility: hidden;
+    transition: all .01s ease-in-out;
+}
+.nav nav .dropdown-Megamenu h4 {
+    color: #2bb77e;
+}
+.nav nav .dropdownMenuPages,.nav nav .dropdownMenuShop,
+.nav nav .dropdownMenuVendors, .nav nav .dropdownMenuBlog{
+    position: absolute;
+    top: 110%;
+    left: 5px;
+    width: 300px;
+    height: auto;
+    background-color: #fff;
+    box-shadow: 5px 5px 15px rgb(0 0 0  / 30%);
+    border-radius: 8px;
+    color: rgba(0, 0, 0, 0.438);
+    visibility: hidden;
+    transition: all .01s ease-in-out;
+    z-index: 10;
+}
+
+.nav nav  .dropdownMenuHome button, .nav nav  .dropdownMenuPages button,
+.nav nav .dropdownMenuShop button, .nav nav .dropdownMenuVendors button,
+.nav nav .dropdownMenuBlog button{
+    width: 100%;
+    height: 30px;
+    color: rgba(0, 0, 0, 0.438);
+    /* text-align: left !important; */
+    justify-content: flex-start !important;
+    margin-left: 0px;
+    
+    
+}
+.nav nav  .dropdownMenuHome button:hover, .nav nav  .dropdownMenuPages button:hover,
+.nav nav .dropdownMenuShop button:hover, .nav nav .dropdownMenuVendors button:hover,
+.nav nav .dropdownMenuBlog button:hover{
+    background-color: #129b6439;
+}
+
+.nav nav li:hover .dropdownMenuHome, .nav nav  li:hover .dropdownMenuPages,
+.nav nav  li:hover .dropdownMenuShop, .nav nav  li:hover .dropdownMenuVendors,
+.nav nav  li:hover .dropdownMenuBlog {
+    top: 100%;
+    opacity: 1;
+    visibility: inherit;
+}
+ .dropdown-Megamenu{
+    height: auto !important;
+    padding: 40px 45px;
+    align-items: flex-start ;
+}
+.dropdown-Megamenu .col ul li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+.dropdown-Megamenu .col ul li a{
+    color: rgba(0, 0, 0, 0.807);
+    text-decoration: none;
+    list-style: none;
+    font-size: 16px;
+}
+.dropdown-Megamenu .col ul li a:hover{
+    color: #2bb77e;
+    background: rgba(13, 10, 10, 0.034);
+}
+.fruit{
+    padding-left:0rem;
+    margin: 10px 10px;
+}
+
+
+
+

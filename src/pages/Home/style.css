@@ -1,0 +1,110 @@
+.homeProducts {
+    margin-bottom: 10px;
+    padding: 5px 0px;
+}
+.homeProducts .filterTab{
+    justify-content: flex-end;
+}
+.homeProducts .filterTab ul li{
+    margin-right: 10px;
+    margin-left: 10px;
+    position: relative;
+}
+.homeProducts .filterTab ul li a{
+    text-decoration: none;
+    color: rgba(24, 22, 22, 0.877);
+    font-size: 22px;
+}
+.homeProducts .filterTab ul li a:hover{
+    border-radius: 7px;
+    padding: 5px 5px;
+    font-weight: 700;
+    color: #000000;
+    background: #85dfbb75;
+    transform: scale(1.2);
+}
+
+.homeProducts .productRow{
+    padding-top: 40px;
+    display: flex;
+    padding: 20px 0px;
+}
+.homeProducts .productRow .item{
+   
+    width: 20%;
+    padding: 15px 15px;
+}
+.homeProductsRow2 .shopNow {
+    font-size: 18px;
+    text-transform: capitalize;
+    border-radius: 7px;
+    background: #3bb77e;
+    color: #fff;
+    position: absolute;
+    bottom: 25%;
+    left: 60px;
+}
+.homeProductsRow2 .shopNow svg{
+    padding-left: 10px;
+    font-size: 25px;
+}
+
+.homeProductsRow2 .shopNow:hover{
+   background-color: rgb(234, 157, 129);
+}
+.homeProductsRow2 .prodSlider .item {
+    padding: 20px 10px !important;
+    padding-right: 20px !important;
+}
+.homeProductsRow2 .prodSlider .slick-current .productThumb{
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16), 0px 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.topProductsSection{
+    padding: 30px 0px;
+}
+
+.newsLatterSection{
+    width: 100%;
+    height: auto;
+}
+
+.newsLatterSection .box{
+     background: url(../../assets/images/newsLatterBannerbg.png);
+     width: 100%;
+     height: auto ;
+     border-radius: 25px;
+     padding: 60px 80px;
+     overflow: hidden;
+}
+.newsLatterSection .box .info{
+    width: 55%;
+}
+.newsLatterSection .box .info h2{
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 60px;
+    opacity: 0.8;
+}
+.newsLatterSection .box .info p{
+    font-size: 22px;
+    opacity: 0.8;
+}
+
+.newsLatterSection .box .info a{
+    text-decoration: none;
+}
+
+.newsLatterSection .box .img{
+    width:45%;
+}
+.newsLatterSection .box .img img{
+    position: relative;
+    top: 60px;
+    right: 0px;
+}
+.newsLatterSection .box .newslatterBanner{
+    position: relative;
+    left: 0px;
+    bottom: inherit;
+}

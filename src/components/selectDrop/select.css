@@ -1,0 +1,65 @@
+.selectDropMenu{
+    width: 280px;
+    height: auto;
+    background: #fff;
+    position: absolute;
+    top: 40px;
+    left: -17px;
+    z-index: 100;
+    box-shadow: 0 3px 6px rgb(0 0 0  / 20%);
+    z-index: 1000;
+    /* padding: 10px; */
+}
+.selectDropMenu .openSelect{
+    display: block;
+    padding: 10px 0px;
+}
+
+.searchField input{
+    width: 100%;
+    height: 40px;
+    border: 1px solid #bce3c9;
+    outline: none ;
+    padding: 0px 15px;
+    border-radius: 4px;
+    margin-top: 15px;
+    
+}
+
+.selectDropMenu .searchResults{
+    width: 100%;
+    margin-left: 10px;
+    padding: 10px 0px ;
+    font-weight: 500;
+    max-height: 300px;
+    overflow-y: scroll;
+   
+}
+.selectDropMenu .searchResults::-webkit-scrollbar{
+    width: 10px !important;
+}
+.selectDropMenu .searchResults::-webkit-scrollbar-thumb{
+    background-color: #cccccc70;
+}
+.selectDropMenu .searchResults li{
+    list-style: none; 
+    font-size: 15px; 
+    width: 100%;
+    padding:6px;
+    background: #fff;
+}
+
+.selectDropMenu .searchResults li:hover{
+    background: #0bcaa4 ;
+    color: #fff;
+}
+.selectDropMenu .searchResults li:active{
+    background: #f1f1f1;
+    color: #000;
+}
+
+header .countryWrapper .selectDropMenu .openSelect{
+    width: 100%;
+}
+
+
