@@ -249,3 +249,10 @@ input::-webkit-inner-spin-button {
   /* position: absolute; */
   cursor: pointer;
 }
+
+.pagination{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}

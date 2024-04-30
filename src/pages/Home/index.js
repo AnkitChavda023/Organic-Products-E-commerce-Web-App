@@ -16,11 +16,15 @@ import TopProduct from "./topProducts";
 
 import { Link } from "react-router-dom";
 import axios from "axios";
+import Pagination from '@mui/material/Pagination';
 
 
 const Home = ()=>{
 
   const [productData , setproductData] = useState([]);
+  const [categoryFilter, setCategoryFilter] = useState(null);
+  const [currentPage, setCurrentPage] = useState(1);
+  const itemsPerPage = 10;
 
  
   useEffect(()=>{
@@ -30,10 +34,8 @@ const Home = ()=>{
 
   const getData =  async(url)=>{
     try{
-
         await axios.get(url).then((response)=>{
             setproductData(response.data);
-            
         })
     }
     catch(error){
@@ -41,7 +43,15 @@ const Home = ()=>{
     }
   }
 
+  const handlePageChange = (event, page) => {
+    setCurrentPage(page);
+  };
+
+
  
+
+  // const displayedProducts = productData.slice(startIndex, endIndex);
+
 
   var settings = {
     dots: false,
@@ -54,6 +64,26 @@ const Home = ()=>{
     autoplay:3000,
     centerMode:true,
   };
+
+//------------------------------------------------------------------------------
+// filter product data methods
+const handleCategoryFilter = (category) => {
+  setCategoryFilter(category);
+  setCurrentPage(1); // Reset to first page when filter changes
+};
+
+    const filteredProducts = categoryFilter
+                             ? productData.filter(product => product.category === categoryFilter)
+                            : productData;
+
+    const totalItems = filteredProducts.length;
+    const totalPages = Math.ceil(totalItems / itemsPerPage);  
+    const startIndex = (currentPage - 1) * itemsPerPage;
+    const endIndex = startIndex + itemsPerPage;
+    const displayedProducts = filteredProducts.slice(startIndex, endIndex);
+
+
+
 
     return (
       <>
@@ -73,41 +103,55 @@ const Home = ()=>{
                 <div className="filterTab d-flex align-items-center mb-0">
                   <ul className="list list-inline ml-auto">
                     <li className="list-inline-item">
-                      <a className="cursor">All</a>
+                      <a onClick={()=>handleCategoryFilter(null)} className="cursor">All</a>
                     </li>
                     <li className="list-inline-item">
-                      <a className="cursor">Milks & Dairies</a>
+                      <a onClick={()=>handleCategoryFilter("Dairy and Milk")} className="cursor">Milks & Dairies</a>
                     </li>
                     <li className="list-inline-item">
-                      <a className="cursor">Coffes & Teas</a>
+                      <a onClick={()=>handleCategoryFilter("Snacks")} className="cursor">Snacks</a>
                     </li>
                     <li className="list-inline-item">
-                      <a className="cursor">Pet Foods</a>
+                      <a onClick={()=>handleCategoryFilter("Dry Fruits")} className="cursor">Dry Fruits</a>
                     </li>
                     <li className="list-inline-item">
-                      <a className="cursor">Vegetables</a>
+                      <a onClick={()=>handleCategoryFilter("Vegetables")} className="cursor">Vegetables</a>
                     </li>
                     <li className="list-inline-item">
-                      <a className="cursor">Fruits</a>
+                      <a onClick={()=>handleCategoryFilter("Beverages")} className="cursor">Beverages</a>
+                    </li>
+                    <li className="list-inline-item">
+                      <a onClick={()=>handleCategoryFilter("Fruits")} className="cursor">Fruits</a>
+                    </li>
+                    <li className="list-inline-item">
+                      <a onClick={()=>handleCategoryFilter("Bakery")} className="cursor">Bakery</a>
                     </li>
                   </ul>
                 </div>
               </div>
             </div>
 
-            <div className="row productRow">
-              {
-               productData.map((item ,index) => (
-                <div key={index} className="item">
-                  <Product  data = {item}/>
+            <div>
+               <div className="row productRow">
+                  {displayedProducts.map((item, index) => (
+                      <div key={index} className="item">
+                        <Product data={item} />
+                      </div>
+                    ))}
                 </div>
-               )) 
-              }
             </div>
-          </div>
+            <Pagination className="pagination"
+              count={totalPages}
+              page={currentPage}
+              onChange={handlePageChange}
+              variant="outlined"
+              color="secondary"  
+            />
+            </div>
+
         </section>
 
-        <section className="homeProducts homeProductsRow2 pt-0">
+        <section className="homeProducts homeProductsRow2 pt-3">
           <div className="container-fluid">
             <div className="topHeading d-flex align-items-center ">
               <div className="col-sm-4">

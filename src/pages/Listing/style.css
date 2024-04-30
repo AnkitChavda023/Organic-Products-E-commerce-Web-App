@@ -1,0 +1,11 @@
+
+.homeProducts1 .productRow1{
+    padding-top: 40px;
+    display: flex;
+    padding: 20px 0px;
+}
+.homeProducts1 .productRow1 .item{
+   
+    width: 25%;
+    padding: 10px 10px;
+}

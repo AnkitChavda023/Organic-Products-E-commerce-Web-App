@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import './style.css';
 
 import HomeOutlinedIcon from '@mui/icons-material/HomeOutlined';
 import KeyboardArrowRightOutlinedIcon from '@mui/icons-material/KeyboardArrowRightOutlined';
@@ -7,13 +8,14 @@ import axios from 'axios';
 import Sidebar from '../../components/Sidebar';
 import Product from '../../components/product/index';
 import { Button } from '@mui/material';
-import GridViewOutlinedIcon from '@mui/icons-material/GridViewOutlined';
-import AutoAwesomeMosaicOutlinedIcon from '@mui/icons-material/AutoAwesomeMosaicOutlined';
+import Pagination from '@mui/material/Pagination';
 
 const Listing = ()=>{
 
 
     const [productData , setproductData] = useState([]);
+    const [currentPage, setCurrentPage] = useState(1);
+    const itemsPerPage = 12;
 
  
   useEffect(()=>{
@@ -34,6 +36,17 @@ const Listing = ()=>{
     }
   }
 
+  
+  const handlePageChange = (event, page) => {
+    setCurrentPage(page);
+  };
+
+  const totalItems = productData.length;
+  const totalPages = Math.ceil(totalItems / itemsPerPage);
+  const startIndex = (currentPage - 1) * itemsPerPage;
+  const endIndex = startIndex + itemsPerPage;
+  const displayedProducts = productData.slice(startIndex, endIndex);
+  
 
 
     return (
@@ -45,7 +58,7 @@ const Listing = ()=>{
               {" "}
               <span>
                 <HomeOutlinedIcon className="text-black" />
-                &nbsp; <Link className="text-g">Home</Link>{" "}
+                &nbsp; <Link to="/" className="text-g">Home</Link>{" "}
               </span>
               &nbsp; <KeyboardArrowRightOutlinedIcon />
               <Link className="text-black">Shop</Link>
@@ -57,19 +70,28 @@ const Listing = ()=>{
               <div className="col-md-3 sidebaWrpper">
                 <Sidebar />
               </div>
-              <div className="col-md-9 rightContent homeProducts pt-0 ">
+              <div className="col-md-9 rightContent homeProducts1 pt-0 ">
                 <div className="topStrip mt-4 d-flex align-items-center">
                   <p className="mb-0 ">
                     We found <span className="text-g">29</span> items for you!
                   </p>
                 </div>
-                <div className="row productRow pl-5 pr-4">
-                  {productData.map((item, index) => (
-                    <div key={index} className="item">
-                      <Product data={item} />
-                    </div>
-                  ))}
+
+                <div className="row productRow1 pl-5 pr-4">
+                  {displayedProducts.map((item, index) => (
+                      <div key={index} className="item">
+                        <Product data={item} />
+                      </div>
+                    ))}
                 </div>
+                <Pagination className="pagination"
+                  count={totalPages}
+                  page={currentPage}
+                  onChange={handlePageChange}
+                  variant="outlined"
+                  color="secondary"  
+                />
+
               </div>
             </div>
           </div>

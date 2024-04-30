@@ -34,6 +34,11 @@ const CartPage = ()=>{
 
     const [showFirstContent, setShowFirstContent] = useState(true);
   const [showSecondContent, setShowSecondContent] = useState(false);
+  const [cartProduct, setCartProduct] = useState([]);
+
+  const removeProduct = () =>{
+    setCartProduct(cartProduct.filter((item, index) => index!== 0));
+  }
 
   const handleFirstButtonClick = () => {
     setShowFirstContent(true);
@@ -110,7 +115,10 @@ const CartPage = ()=>{
                                     <tbody>
                                         <tr>
                                             <td>
+
                                                 <div className='d-flex align-items-center'>
+
+                                                   
                                                      <div className='img'>
                                                         <img src={Image1} />
                                                     </div>
@@ -358,9 +366,6 @@ const CartPage = ()=>{
                                                     <li className="list-inline-item">
                                                         <Link to=""> <img src={Paypal}/> </Link>
                                                     </li>
-                                                        {/* <li className="list-inline-item">
-                                                            <Link to=""><img src={BhimUPI} /> </Link>
-                                                        </li> */}
                                                     <li className="list-inline-item">
                                                         <Link to=""> <img src={ApplePay} /> </Link>
                                                     </li>

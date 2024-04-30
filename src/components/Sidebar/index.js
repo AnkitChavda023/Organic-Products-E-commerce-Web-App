@@ -48,7 +48,7 @@ const Sidebar = ()=>{
                 <span className="img">
                   <img src={Cloth} width={30} />{" "}
                 </span>
-                <h5 className="mb-0 ml-3 mr-3">Clothing</h5>
+                <h5 className="mb-0 ml-3 mr-3">Snacks</h5>
                 <span className="d-flex align-items-center rounded-circle ml-auto">
                   45
                 </span>
@@ -57,7 +57,7 @@ const Sidebar = ()=>{
                 <span className="img">
                   <img src={petFood} width={30} />{" "}
                 </span>
-                <h5 className="mb-0 ml-3 mr-3">Pet Foods</h5>
+                <h5 className="mb-0 ml-3 mr-3">Dry Fruits</h5>
                 <span className="d-flex align-items-center rounded-circle ml-auto">
                   02
                 </span>
@@ -66,7 +66,7 @@ const Sidebar = ()=>{
                 <span className="img">
                   <img src={bakingMater} width={30} />{" "}
                 </span>
-                <h5 className="mb-0 ml-3 mr-3">Baking material</h5>
+                <h5 className="mb-0 ml-3 mr-3">Vegetables</h5>
                 <span className="d-flex align-items-center rounded-circle justify-content-between">
                   08
                 </span>
@@ -76,10 +76,32 @@ const Sidebar = ()=>{
                   <img src={Fruit} width={30} />{" "}
                 </span>
                 <h5 className="mb-0 ml-3 mr-3 align-items-flex-start ">
-                  Fresh Fruit
+                  Fresh Fruits
+                </h5>
+                <span className="d-flex align-items-center justify-content-center rounded-circle justify-content-between">
+                  13
+                </span>
+              </div>
+              <div className="catItem d-flex align-items-center justify-content-between">
+                <span className="img">
+                  <img src={Fruit} width={30} />{" "}
+                </span>
+                <h5 className="mb-0 ml-3 mr-3 align-items-flex-start ">
+                  Beverages
                 </h5>
                 <span className="d-flex align-items-center justify-content-center rounded-circle justify-content-between">
                   80
+                </span>
+              </div>
+              <div className="catItem d-flex align-items-center justify-content-between">
+                <span className="img">
+                  <img src={Fruit} width={30} />{" "}
+                </span>
+                <h5 className="mb-0 ml-3 mr-3 align-items-flex-start ">
+                  Bakery
+                </h5>
+                <span className="d-flex align-items-center justify-content-center rounded-circle justify-content-between">
+                  23
                 </span>
               </div>
             </div>
@@ -136,17 +158,9 @@ const Sidebar = ()=>{
 
           </div>
 
-          <div className="card border-0 shadow">
-            <div className="container-fluid">
-                <div className="row topPro">
-                    <div className="col " >
-                        <TopProduct title="New Products" />
-                    </div>
-                </div>
-                </div>
-           </div><br/>
+         <br/>
         
-            <img src={SidebarBanner} className="w-100"/>
+            {/* <img src={SidebarBanner} className="w-75 mt-0"/> */}
         </div>
       </>
     );
