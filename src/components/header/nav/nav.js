@@ -9,7 +9,7 @@ import HeadsetMicOutlinedIcon from '@mui/icons-material/HeadsetMicOutlined';
 import LocalFireDepartmentOutlinedIcon from '@mui/icons-material/LocalFireDepartmentOutlined';
 // import { ClickAwayListener } from '@mui/base/ClickAwayListener';
 
-const Nav = (props)=> {
+const Nav = ({data})=> {
 
     useEffect(()=>{
         // console.log(props.data);

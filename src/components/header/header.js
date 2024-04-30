@@ -25,7 +25,7 @@ import LoginOutlinedIcon from '@mui/icons-material/LoginOutlined';
 import Nav from './nav/nav';
 import { Link } from "react-router-dom";
 
-const Header = (props) => {
+const Header = ({data}) => {
  
 
      const [categories, setCategories] = useState([
@@ -129,11 +129,11 @@ const Header = (props) => {
                              <span className="badge bg-success rounded-circle"> 6 </span>
                          </span>
 
-                         <Link to="/cart" className="text-black">
+                         <Link to="/cart" className="text-black text-decoration-none">
                             <span>
                                 Cart
                                 <img src={iconCart}/> 
-                                <span className="badge bg-success rounded-circle"> 4 </span>
+                                <span className="badge bg-success rounded-circle"> {data.length+2} </span>
                            </span>
                          </Link>
                          
@@ -163,7 +163,7 @@ const Header = (props) => {
         </div>
       </header>
 
-    <Nav data={props.data}/>
+    <Nav data={data}/>
     </div>
     </>
   );

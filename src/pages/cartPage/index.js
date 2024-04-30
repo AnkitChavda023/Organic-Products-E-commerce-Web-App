@@ -30,15 +30,13 @@ import Upi from '../../assets/images/payments/upi-icon.png';
 import './style.css';
 
 
-const CartPage = ()=>{
+const CartPage = ({data, removeProduct})=>{
 
-    const [showFirstContent, setShowFirstContent] = useState(true);
+console.log(data);
+  const [showFirstContent, setShowFirstContent] = useState(true);
   const [showSecondContent, setShowSecondContent] = useState(false);
   const [cartProduct, setCartProduct] = useState([]);
 
-  const removeProduct = () =>{
-    setCartProduct(cartProduct.filter((item, index) => index!== 0));
-  }
 
   const handleFirstButtonClick = () => {
     setShowFirstContent(true);
@@ -95,7 +93,7 @@ const CartPage = ()=>{
                         <div className='carthead d-flex align-items-center  w-100'>
                              <div className='left'>
                                 <h3 className='hd mb-0'> Your Cart</h3>
-                                 <p> There are <span className='text-g '>4</span> Products in your Cart. </p>
+                                 <p> There are <span className='text-g '>{data.length+2}</span> Products in your Cart. </p>
                              </div>
                                 <span className='clearCart d-flex align-items-center cursor' > <DeleteOutlineOutlinedIcon/> Clear Cart</span>
                          </div>
@@ -112,24 +110,29 @@ const CartPage = ()=>{
                                             <th>Remove</th>
                                         </tr>
                                     </thead>
+
                                     <tbody>
-                                        <tr>
-                                            <td>
+                                        {
+
+                                        data.map((item,index)=>{
+                                            return(
+                                                
+                                              <tr key={index}>
+                                                <td>
 
                                                 <div className='d-flex align-items-center'>
-
                                                    
                                                      <div className='img'>
-                                                        <img src={Image1} />
+                                                        <img src={item.picture} />
                                                     </div>
                                                     <div className='info'>
-                                                        <Link><h4> Kiwi fruit, tangy and packed with vitamin C.</h4></Link>
+                                                        <Link><h4> {item.description} </h4></Link>
                                                         <Rating name="half-rating-read" defaultValue={3.5} precision={0.5} readOnly className='mt-1' /> <span className='text-black '>(3.5)</span>
                                                     </div> 
                                                 </div>
                                             </td>
 
-                                            <td className='unitprice'>$2.52</td>
+                                            <td className='unitprice'> {item.price} </td>
 
                                             <td>
                                             <div className='addCartSection pt-4 pb-4 d-flex align-items-center '>
@@ -141,9 +144,13 @@ const CartPage = ()=>{
                                             </div>
                                             </td>   
 
-                                            <td className='subTotal '>$2.52</td>
-                                            <td> <DeleteOutlineOutlinedIcon className='delete'/> </td>
+                                            <td className='subTotal '> ${item.price*inputValue} </td>
+                                            <td>   <DeleteOutlineOutlinedIcon className='delete' onClick={() =>  removeProduct(index)} /> </td>
+                                           
                                         </tr>
+                                                )
+                                            })
+                                        }
                                     </tbody>
                                     <tbody>
                                         <tr>
@@ -205,36 +212,6 @@ const CartPage = ()=>{
                                             <td> <DeleteOutlineOutlinedIcon className='delete'/> </td>
                                         </tr>
                                     </tbody>
-                                    <tbody>
-                                        <tr>
-                                            <td>
-                                                <div className='d-flex align-items-center'>
-                                                     <div className='img'>
-                                                        <img src={Image4} />
-                                                    </div>
-                                                    <div className='info'>
-                                                        <Link><h4> Organic radishes, crisp and peppery. </h4></Link>
-                                                        <Rating name="half-rating-read" defaultValue={4.6} precision={0.1} readOnly className='mt-1' /> <span className='text-black '>(4.6)</span>
-                                                    </div> 
-                                                </div>
-                                            </td>
-
-                                            <td className='unitprice'>$10.00</td>
-
-                                            <td>
-                                            <div className='addCartSection pt-4 pb-4 d-flex align-items-center '>
-                                                <div className= 'counterSec'>
-                                                    <span className='arrow plus' onClick={plus}><ArrowDropUpIcon /></span>
-                                                    <input type='number' value={inputValue} />
-                                                    <span className='arrow minus' onClick={minus}><ArrowDropDownIcon /></span>
-                                                </div>
-                                            </div>
-                                            </td>   
-
-                                            <td className='subTotal '>$10.00</td>
-                                            <td> <DeleteOutlineOutlinedIcon className='delete'/> </td>
-                                        </tr>
-                                    </tbody>
                                 </table>    
                             </div>
                          </div>
@@ -259,7 +236,7 @@ const CartPage = ()=>{
 
                          <div className='carthead d-flex align-items-center mt-4 mb-0 w-100'>
                              <div className='bottomBtn'>
-                             <Button className='leftBtn'> <ArrowBackIcon/> continue shopping </Button>
+                             <Button className='leftBtn '> <ArrowBackIcon/> <Link to="/listing" className='text-white text-decoration-none'>continue shopping</Link> </Button>
                              </div>
                              <div className='bottomBtn'>
                              <Button className='leftBtn'> <LoopOutlinedIcon/> upadate cart </Button>
