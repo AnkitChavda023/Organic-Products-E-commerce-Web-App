@@ -107,19 +107,20 @@
 }
 
 .productThumb .addButton{
-    width: 92%;
+    width: 93%;
     color: #000;
-    border-radius: 10px;
+    border-radius: 5px;
     background-color:  #7afdc0;
-    display:inline-block;
 }
 .productThumb .addButton:hover{
     color: #fff;
     background: #27be78;
+    border: 1px solid #121313;
     transition: all .2s ease-in-out;
+    
 }
 .productThumb .addButton svg{
-    margin-right: 10px;
+    margin-right: 5px;
     font-size: 20px;
 }
 

@@ -12,7 +12,7 @@ import TopProduct from "./topProducts";
 import axios from "axios";
 import Pagination from '@mui/material/Pagination';
 
-const Home = ({handleAddToCart}) => {
+const Home = ({handleAddToCart, addToWishlist}) => {
   const [productData, setProductData] = useState([]);
   const [categoryFilter, setCategoryFilter] = useState(null);
   const [currentPage, setCurrentPage] = useState(1);
@@ -95,7 +95,7 @@ const Home = ({handleAddToCart}) => {
             <div className="row productRow">
               {displayedProducts.map((item, index) => (
                 <div key={index} className="item">
-                  <Product data={item} handleAddToCart={handleAddToCart} />
+                  <Product data={item} handleAddToCart={handleAddToCart}  addToWishlist={addToWishlist} />
                 </div>
               ))}
             </div>

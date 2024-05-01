@@ -1,0 +1,188 @@
+.breadcrumWrapper{
+    margin: 18px 10px;
+}
+
+.breadcrumWrapper h6 a{
+   text-decoration: none;
+}
+.breadcrumWrapper h6 a:hover{
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 3px;
+    padding: 5px 10px 5px 10px;
+    background: #affdd9;
+    text-decoration: underline;
+ }
+
+ .cartSection{
+    width: 100%;
+    height: auto;
+    padding: 30px 0px;
+ }
+
+ .cartSection p{
+    font-size: 20px;
+ }
+
+ .cartSection .carthead{
+    justify-content:space-between;
+ }
+ .cartSection .carthead .clearCart{
+   
+    font-size: 20px;
+    font-weight: 500;
+ }
+ .cartSection .carthead .clearCart svg{
+    color: #3bb77e;
+    font-weight: 700;
+    font-size: 28px;
+    opacity: 1;
+ }
+
+ .cartWrapper table thead{
+    background: #f1f1f1 ;
+    overflow: hidden;
+    border-radius: 5px;
+ }
+ 
+ .cartWrapper .table-responsive table tbody td .img img{
+    width: 110px;
+    padding: 7px ;
+    border: 1px solid rgba(0, 0, 0, 0.092);
+    border-radius: 8px;
+ }
+
+ .cartWrapper .table-responsive table tbody td .info{
+    padding-left: 15px;
+ }
+
+ .cartWrapper .table-responsive table tbody td .info a {
+    text-decoration: none;
+    color: black;
+ }
+ .cartWrapper .table-responsive table tbody td .info a h4{
+    font-size: 18px;
+    font-weight: 500;
+    opacity: .8;
+    cursor: pointer;
+  }
+.cartWrapper .table-responsive table tbody  td{
+   vertical-align: middle;
+  }
+.cartWrapper .table-responsive table tbody .unitprice{
+   font-size: 20px;
+   color: #090909d4;
+   font-weight: 500;
+}
+.cartWrapper .table-responsive table tbody .subTotal{
+   font-size: 20px;
+   color: #3bb77e;
+   font-weight: 500;
+}
+.cartWrapper .table-responsive table tbody .delete {
+   margin-left: 15px;
+   font-size: 30px;
+   color: black;
+   cursor: pointer;
+}
+
+.bottomBtn .leftBtn{
+   text-transform: capitalize;
+   font-size: 17px;
+   height: 45px;
+   width: 100%;
+   background: #049752;
+   color: #fff;
+   transition: all .3s ease-in-out;
+   }
+.bottomBtn .leftBtn svg{
+   margin-right:  5px;
+}
+.bottomBtn .leftBtn:hover{
+   background: #f8b918;
+   color: #000;
+}
+
+
+.subTotaldis{
+   opacity: 0.9;
+   align-items: center  ;
+   justify-content: space-between;
+}
+
+.subTotaldis h4{
+   opacity: 0.7;
+}
+.subTotaldis .checkOutBtn {
+   text-transform: capitalize;
+   font-size: 17px;
+   height: 45px;
+   width: 100%;
+   background: #049752;
+   color: #fff;
+   transition: all .3s ease-in-out;
+}
+.subTotaldis .checkOutBtn svg {
+   margin-left: 10px;
+}
+
+.subTotaldis .checkOutBtn:hover{
+   background: #f8b918;
+   color: #000;
+}
+
+.deliveryinfoData{
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+}
+.deliveryinfoData .dataInfo{
+   width: 100%;
+}
+ .Address input{
+   width: 87%;
+   margin-top: 8px;
+   height: 40px;
+   border: 1px solid #1011102f;
+   padding-left: 10px;
+   border-radius: 5px;
+}
+
+.deliveryinfoData .dataInfo input{
+   margin-top: 8px;
+   height: 40px;
+   border: 1px solid #1011102f;
+   padding-left: 10px;
+   border-radius: 5px;
+}
+.Payment{
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.Payment .paymentType button{
+   margin: 0px 5px ;
+   padding: 5px 5px;
+   background-color: #3bb77e;
+   color: #fff;
+   transition: all .3s ease-in-out;
+}
+.Payment .paymentType button:hover{
+   background-color: #e78f0ca6;
+   color: #000;
+}
+.socialHandle ul{
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+}
+.image img{
+   height: 70px;
+   width: 70px;
+}
+.image .googlepay{
+   height: 35px;
+   width: 35px;
+}
+

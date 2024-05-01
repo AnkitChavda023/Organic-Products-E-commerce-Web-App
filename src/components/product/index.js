@@ -9,7 +9,7 @@ import CompareArrowsOutlinedIcon from '@mui/icons-material/CompareArrowsOutlined
 import RemoveRedEyeOutlinedIcon from '@mui/icons-material/RemoveRedEyeOutlined';
 import Tooltip from '@mui/material/Tooltip';
 
-const Product = ({ data, handleAddToCart }) => {
+const Product = ({ data, handleAddToCart, addToWishlist }) => {
   const { tag, picture, description, category, company_name, price, old_price } = data;
 
   return (
@@ -23,7 +23,7 @@ const Product = ({ data, handleAddToCart }) => {
               <li className="list-inline-item">
                 <Tooltip title="Add to Wishlist">
                   <a className="cursor transition">
-                    <FavoriteBorderOutlinedIcon />
+                    <FavoriteBorderOutlinedIcon onClick={()=>{addToWishlist(data);}} />
                   </a>
                 </Tooltip>
               </li>
