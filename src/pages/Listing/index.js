@@ -10,7 +10,7 @@ import Product from '../../components/product/index';
 import { Button } from '@mui/material';
 import Pagination from '@mui/material/Pagination';
 
-const Listing = ({handleAddToCart , addToWishlist})=>{
+const Listing = ({handleAddToCart , addToWishlist, addToCompare})=>{
 
 
     const [productData , setproductData] = useState([]);
@@ -73,14 +73,14 @@ const Listing = ({handleAddToCart , addToWishlist})=>{
               <div className="col-md-9 rightContent homeProducts1 pt-0 ">
                 <div className="topStrip mt-4 d-flex align-items-center">
                   <p className="mb-0 ">
-                    We found <span className="text-g">29</span> items for you!
+                    We found <span className="text-g">{productData.length}</span> items for you!
                   </p>
                 </div>
 
                 <div className="row productRow1 pl-5 pr-4">
                   {displayedProducts.map((item, index) => (
                       <div key={index} className="item">
-                        <Product data={item}  handleAddToCart={handleAddToCart} addToWishlist={addToWishlist} />
+                        <Product data={item}  handleAddToCart={handleAddToCart} addToWishlist={addToWishlist} addToCompare={addToCompare} />
                       </div>
                     ))}
                 </div>

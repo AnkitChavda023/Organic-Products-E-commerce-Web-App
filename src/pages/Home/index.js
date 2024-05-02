@@ -12,7 +12,7 @@ import TopProduct from "./topProducts";
 import axios from "axios";
 import Pagination from '@mui/material/Pagination';
 
-const Home = ({handleAddToCart, addToWishlist}) => {
+const Home = ({handleAddToCart, addToWishlist , addToCompare}) => {
   const [productData, setProductData] = useState([]);
   const [categoryFilter, setCategoryFilter] = useState(null);
   const [currentPage, setCurrentPage] = useState(1);
@@ -85,6 +85,27 @@ const Home = ({handleAddToCart, addToWishlist}) => {
                   <li className="list-inline-item">
                     <a onClick={() => handleCategoryFilter(null)} className="cursor">All</a>
                   </li>
+                  <li className="list-inline-item">
+                    <a onClick={() => handleCategoryFilter("Dairy and Milk")} className="cursor">Milks & Dairies</a>
+                  </li>
+                  <li className="list-inline-item">
+                    <a onClick={() => handleCategoryFilter("Snacks")} className="cursor">Snacks</a>
+                  </li>
+                  <li className="list-inline-item">
+                    <a onClick={() => handleCategoryFilter("Dry Fruits")} className="cursor">Dry Fruits</a>
+                  </li>
+                  <li className="list-inline-item">
+                    <a onClick={() => handleCategoryFilter("Vegetables")} className="cursor">Vegetables</a>
+                  </li>
+                  <li className="list-inline-item">
+                    <a onClick={() => handleCategoryFilter("Fruits")} className="cursor">Fresh Fruits</a>
+                  </li>
+                  <li className="list-inline-item">
+                    <a onClick={() => handleCategoryFilter("Beverages")} className="cursor">Beverages</a>
+                  </li>
+                  <li className="list-inline-item">
+                    <a onClick={() => handleCategoryFilter("Bakery")} className="cursor">Bakery</a>
+                  </li>
                   {/* Other category filter options */}
                 </ul>
               </div>
@@ -95,7 +116,7 @@ const Home = ({handleAddToCart, addToWishlist}) => {
             <div className="row productRow">
               {displayedProducts.map((item, index) => (
                 <div key={index} className="item">
-                  <Product data={item} handleAddToCart={handleAddToCart}  addToWishlist={addToWishlist} />
+                  <Product data={item} handleAddToCart={handleAddToCart}  addToWishlist={addToWishlist} addToCompare={addToCompare} />
                 </div>
               ))}
             </div>

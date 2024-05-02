@@ -25,7 +25,7 @@ import LoginOutlinedIcon from '@mui/icons-material/LoginOutlined';
 import Nav from './nav/nav';
 import { Link } from "react-router-dom";
 
-const Header = ({data , wishlistItems}) => {
+const Header = ({data , wishlistItems, compareItems}) => {
  
 
      const [categories, setCategories] = useState([
@@ -118,16 +118,18 @@ const Header = ({data , wishlistItems}) => {
 
             <div className="col-sm-3 d-flex align-items-center " >
                    <div className="ml-auto d-flex align-items-center">
+                          <Link to="/compare" className="text-black text-decoration-none">
                           <span>
                                Compate
                                <img src={iconCompare}/> 
-                               <span className="badge bg-success rounded-circle"> 5 </span> 
+                               <span className="badge bg-success rounded-circle"> {compareItems.length} </span> 
                          </span>
+                          </Link>
                          <Link to="/wishlist" className="text-black text-decoration-none">
                          <span>
                               Wishlist
                              <img src={iconHeart}/> 
-                             <span className="badge bg-success rounded-circle"> {wishlistItems.length+3} </span>
+                             <span className="badge bg-success rounded-circle"> {wishlistItems.length} </span>
                          </span>
                          </Link>
 
@@ -135,7 +137,7 @@ const Header = ({data , wishlistItems}) => {
                             <span>
                                 Cart
                                 <img src={iconCart}/> 
-                                <span className="badge bg-success rounded-circle"> {data.length+2} </span>
+                                <span className="badge bg-success rounded-circle"> {data.length} </span>
                            </span>
                          </Link>
                          

@@ -5,10 +5,6 @@ import HomeOutlinedIcon from '@mui/icons-material/HomeOutlined';
 import ShoppingCartCheckoutOutlinedIcon from '@mui/icons-material/ShoppingCartCheckoutOutlined';
 import ShoppingBagOutlinedIcon from '@mui/icons-material/ShoppingBagOutlined';
 import DeleteOutlineOutlinedIcon from '@mui/icons-material/DeleteOutlineOutlined';
-import Image1 from '../../assets/images/Fruits/cat-2.png';
-import Image2 from '../../assets/images/Fruits/cat-11.jpg';
-import Image3 from '../../assets/images/Fruits/cat-12.jpg';
-import Image4 from '../../assets/images/bakery/cat-2.jpeg';
 import Rating from '@mui/material/Rating';
 import { Button } from '@mui/material';
 import ArrowDropUpIcon from '@mui/icons-material/ArrowDropUp';
@@ -16,14 +12,12 @@ import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 import AddShoppingCartOutlinedIcon from '@mui/icons-material/AddShoppingCartOutlined';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 import LoopOutlinedIcon from '@mui/icons-material/LoopOutlined';
-import PlaceOutlinedIcon from '@mui/icons-material/PlaceOutlined';
 
 
  import GooglePay from '../../assets/images/payments/google-pay-icon.png';
 import ApplePay from '../../assets/images/payments/apple-pay-icon.png';
 import AmazonPay from '../../assets/images/payments/amazon-a-logo-icon.png';
 import Paypal from '../../assets/images/payments/paypal-color-icon.png';
-import BhimUPI from '../../assets/images/payments/bhim-app-icon.png';
 import Upi from '../../assets/images/payments/upi-icon.png';
 
 
@@ -35,7 +29,6 @@ const CartPage = ({data, removeProduct})=>{
 console.log(data);
   const [showFirstContent, setShowFirstContent] = useState(true);
   const [showSecondContent, setShowSecondContent] = useState(false);
-  const [cartProduct, setCartProduct] = useState([]);
 
 
   const handleFirstButtonClick = () => {
@@ -90,10 +83,10 @@ console.log(data);
             <div className='container-fluid'>
                 <div className='row'>
                     <div className='col-md-7'>
-                        <div className='carthead d-flex align-items-center  w-100'>
+                        <div className='carthead d-flex align-items-center  w-100 mb-0'>
                              <div className='left'>
-                                <h3 className='hd mb-0'> Your Cart</h3>
-                                 <p> There are <span className='text-g '>{data.length+2}</span> Products in your Cart. </p>
+                                <h3 className='hd mb-2'> Your Cart</h3>
+                                 <p> There are <span className='text-g '>{data.length}</span> Products in your Cart. </p>
                              </div>
                                 <span className='clearCart d-flex align-items-center cursor' > <DeleteOutlineOutlinedIcon/> Clear Cart</span>
                          </div>
@@ -151,66 +144,6 @@ console.log(data);
                                                 )
                                             })
                                         }
-                                    </tbody>
-                                    <tbody>
-                                        <tr>
-                                            <td>
-                                                <div className='d-flex align-items-center'>
-                                                     <div className='img'>
-                                                        <img src={Image2} />
-                                                    </div>
-                                                    <div className='info'>
-                                                        <Link><h4> Mangoes, juicy and refreshing.</h4></Link>
-                                                        <Rating name="half-rating-read" defaultValue={4.5} precision={0.5} readOnly className='mt-1' /> <span className='text-black '>(4.5)</span>
-                                                    </div> 
-                                                </div>
-                                            </td>
-
-                                            <td className='unitprice'>$5.52</td>
-
-                                            <td>
-                                            <div className='addCartSection pt-4 pb-4 d-flex align-items-center '>
-                                                <div className= 'counterSec'>
-                                                    <span className='arrow plus' onClick={plus}><ArrowDropUpIcon /></span>
-                                                    <input type='number' value={inputValue} />
-                                                    <span className='arrow minus' onClick={minus}><ArrowDropDownIcon /></span>
-                                                </div>
-                                            </div>
-                                            </td>   
-
-                                            <td className='subTotal '>$5.52</td>
-                                            <td> <DeleteOutlineOutlinedIcon className='delete'/> </td>
-                                        </tr>
-                                    </tbody>
-                                    <tbody>
-                                        <tr>
-                                            <td>
-                                                <div className='d-flex align-items-center'>
-                                                     <div className='img'>
-                                                        <img src={Image3} />
-                                                    </div>
-                                                    <div className='info'>
-                                                        <Link><h4> Organic raspberries, tart and juicy.</h4></Link>
-                                                        <Rating name="half-rating-read" defaultValue={4.0} precision={0.5} readOnly className='mt-1' /> <span className='text-black '>(4.0)</span>
-                                                    </div> 
-                                                </div>
-                                            </td>
-
-                                            <td className='unitprice'>$3.50</td>
-
-                                            <td>
-                                            <div className='addCartSection pt-4 pb-4 d-flex align-items-center '>
-                                                <div className= 'counterSec'>
-                                                    <span className='arrow plus' onClick={plus}><ArrowDropUpIcon /></span>
-                                                    <input type='number' value={inputValue} />
-                                                    <span className='arrow minus' onClick={minus}><ArrowDropDownIcon /></span>
-                                                </div>
-                                            </div>
-                                            </td>   
-
-                                            <td className='subTotal '>$3.50</td>
-                                            <td> <DeleteOutlineOutlinedIcon className='delete'/> </td>
-                                        </tr>
                                     </tbody>
                                 </table>    
                             </div>

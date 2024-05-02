@@ -1,6 +1,8 @@
 {
+    "Availability" : "Yes",
     "products":[
         {
+            "Availability" : "Yes",
             "tag" : "best",
             "picture": "images/vegatable/cat-5.jpg",
             "category": "Vegetables",
@@ -10,6 +12,7 @@
             "old_price": 3.99
         },
         {
+            "Availability" : "Yes",
           
             "picture": "images/Fruits/cat-17.jpg",
             "category": "Fruits",
@@ -19,6 +22,7 @@
             "old_price": 5.99
         },
         {
+            "Availability" : "Yes",
             
             "picture": "images/dry fruit/dry-8.jpg",
             "category": "Dry Fruits",
@@ -28,6 +32,7 @@
             "old_price": 9.99
         },
         {
+            "Availability" : "Yes",
             "tag" : "hot",
             "picture": "images/Tea/cat-1.jpeg",
             "category": "Beverages",
@@ -37,6 +42,7 @@
             "old_price": 4.99
         },
         {
+            "Availability" : "Yes",
             
             "picture": "images/dairy and milk/cat-6.jpg",
             "category": "Dairy and Milk",
@@ -46,6 +52,7 @@
             "old_price": 4.49
         },
         {
+            "Availability" : "Yes",
             "tag" : "new",
             "picture": "images/bakery/cat-7.webp",
             "category": "Bakery",
@@ -55,6 +62,7 @@
             "old_price": 6.49
         },
         {
+            "Availability" : "Yes",
             "tag" : "new",
             "picture": "images/snack/cat-9.jpeg",
             "category": "Snacks",
@@ -65,6 +73,7 @@
         },
        
         {
+            "Availability" : "Yes",
             
             "picture": "images/vegatable/cat-6.jpg",
             "category": "Vegetables",
@@ -74,6 +83,7 @@
             "old_price": 2.49
         },
         {
+            "Availability" : "Yes",
             
             "picture": "images/Fruits/cat-8.png",
             "category": "Fruits",
@@ -83,6 +93,7 @@
             "old_price": 7.99
         },
         {
+            "Availability" : "Yes",
             
             "picture": "images/dry fruit/dry-9.jpg",
             "category": "Dry Fruits",
@@ -92,6 +103,7 @@
             "old_price": 9.99
         },
         {
+            "Availability" : "Yes",
             "tag" : "hot",
             "picture": "images/Tea/cat-15.jpeg",
             "category": "Beverages",
@@ -101,6 +113,7 @@
             "old_price": 6.49
         },
         {
+            "Availability" : "Yes",
             "tag" : "new",
             "picture": "images/dairy and milk/cat-5.png",
             "category": "Dairy and Milk",
@@ -110,6 +123,7 @@
             "old_price": 5.49
         },
         {
+            "Availability" : "Yes",
             "tag" : "best",
             "picture": "images/bakery/cat-4.jpeg",
             "category": "Bakery",
@@ -119,6 +133,7 @@
             "old_price": 4.99
         },
         {
+            "Availability" : "Yes",
             "tag" : "sale",
             "picture": "images/snack/cat-5.jpeg",
             "category": "Snacks",
@@ -128,6 +143,7 @@
             "old_price": 5.49
         },
         {
+            "Availability" : "Yes",
             
             "picture": "images/vegatable/cat-3.jpg",
             "category": "Vegetables",
@@ -137,6 +153,7 @@
             "old_price": 4.49
         },
         {
+            "Availability" : "Yes",
             "picture": "images/Fruits/cat-4.png",
             "category": "Fruits",
             "description": " Organic apples, crisp and juicy.  ",
@@ -145,6 +162,7 @@
             "old_price": 5.49
         },
         {
+            "Availability" : "Yes",
             "tag" : "sale",
             "picture": "images/dry fruit/dry-9.jpg",
             "category": "Dry Fruits",
@@ -153,6 +171,7 @@
             "price": 5.99,
             "old_price": 7.49
         },  {
+            "Availability" : "Yes",
             
             "picture": "images/Fruits/cat-10.jpg",
             "category": "Beverages",
@@ -162,6 +181,7 @@
             "old_price": 3.99
         },
         {
+            "Availability" : "Yes",
            
             "picture": "images/dairy and milk/cat-8.png",
             "category": "Dairy and Milk",
@@ -171,6 +191,7 @@
             "old_price": 8.49
         },
         {
+            "Availability" : "Yes",
             
             "picture": "images/bakery/cat-10.jpeg",
             "category": "Bakery",
@@ -180,6 +201,7 @@
             "old_price": 5.99
         },
         {
+            "Availability" : "Yes",
             "tag" : "hot",
             "picture": "images/snack/cat-10.jpeg",
             "category": "Snacks",
@@ -189,6 +211,7 @@
             "old_price": 4.99
         },
         {
+            "Availability" : "Yes",
             "tag" : "sale",
             "picture": "images/vegatable/cat-2.jpg",
             "category": "Vegetables",
@@ -198,6 +221,7 @@
             "old_price": 3.49
         },
         {
+            "Availability" : "Yes",
             "tag" : "new",
             "picture": "images/Fruits/cat-12.jpg",
             "category": "Fruits",
@@ -207,6 +231,7 @@
             "old_price": 6.49
         },
         {
+            "Availability" : "Yes",
             
             "picture": "images/dry fruit/dry-17.jpeg",
             "category": "Dry Fruits",
@@ -216,6 +241,7 @@
             "old_price": 4.49
         },
         {
+            "Availability" : "Yes",
             
             "picture": "images/Tea/cat-14.jpeg",
             "category": "Beverages",
@@ -225,6 +251,7 @@
             "old_price": 7.49
         },
         {
+            "Availability" : "Yes",
             
             "picture": "images/dairy and milk/cat-15.jpeg",
             "category": "Dairy and Milk",
@@ -234,6 +261,7 @@
             "old_price": 9.99
         },
         {
+            "Availability" : "Yes",
             
             "picture": "images/bakery/cat-2.jpeg",
             "category": "Bakery",
@@ -243,6 +271,7 @@
             "old_price": 8.99
         },
         {
+            "Availability" : "Yes",
             
             "picture": "images/snack/cat-10.jpeg",
             "category": "Snacks",
@@ -252,6 +281,7 @@
             "old_price": 6.99
         },
         {
+            "Availability" : "Yes",
             
             "picture": "images/vegatable/cat-10.jpg",
             "category": "Vegetables",
@@ -261,6 +291,7 @@
             "old_price": 3.49
         },
         {
+            "Availability" : "Yes",
             
             "picture": "images/Fruits/cat-3.png",
             "category": "Fruits",
@@ -270,6 +301,7 @@
             "old_price": 6.49
         },
         {
+            "Availability" : "Yes",
             
             "picture": "images/dry fruit/dry-4.jpg",
             "category": "Dry Fruits",
@@ -279,6 +311,7 @@
             "old_price": 9.99
         },
         {
+            "Availability" : "Yes",
             
             "picture": "images/Tea/cat-12.jpeg",
             "category": "Beverages",
@@ -288,6 +321,7 @@
             "old_price": 4.99
         },
         {
+            "Availability" : "Yes",
             "tag" : "best",
             "picture": "images/dairy and milk/cat-15.jpeg",
             "category": "Dairy and Milk",
@@ -296,7 +330,8 @@
             "price": 4.99,
             "old_price": 6.49
         },
-        {  
+        {
+            "Availability" : "Yes",  
         "tag" : "best",  
         "picture": "images/Fruits/cat-10.jpg",
           "category": "Beverages",
@@ -306,6 +341,7 @@
           "old_price": 3.99
       },
       {
+          "Availability" : "Yes",
         "tag" : "sale",  
         "picture": "images/dairy and milk/cat-15.jpeg",
           "category": "Dairy and Milk",
@@ -315,6 +351,7 @@
           "old_price": 7.99
       },
       {
+          "Availability" : "Yes",
         "tag" : "sale",  
         "picture": "images/bakery/cat-4.jpeg",
           "category": "Bakery",
@@ -324,6 +361,7 @@
           "old_price": 5.99
       },
       {
+          "Availability" : "Yes",
         "tag" : "new",  
         "picture": "images/snack/cat-5.jpeg",
           "category": "Snacks",
@@ -332,6 +370,7 @@
           "price": 3.49,
           "old_price": 4.49
       },{
+          "Availability" : "Yes",
         "tag" : "sale",  
         "picture": "images/vegatable/cat-2.jpg",
           "category": "Vegetables",
@@ -341,6 +380,7 @@
           "old_price": 2.49
       },
       {
+          "Availability" : "Yes",
         "tag" : "best",  
         "picture": "images/Fruits/cat-27.jpg",
           "category": "Fruits",
@@ -350,6 +390,7 @@
           "old_price": 4.49
       },
       {
+          "Availability" : "Yes",
          
         "picture": "images/dry fruit/dry-13.png",
           "category": "Dry Fruits",
@@ -359,6 +400,7 @@
           "old_price": 6.49
       },
       {
+          "Availability" : "Yes",
           
         "picture": "images/Tea/cat-5.jpeg",
           "category": "Beverages",
@@ -368,6 +410,7 @@
           "old_price": 5.49
       },  
       {
+          "Availability" : "Yes",
         
         "picture": "images/dairy and milk/cat-14.jpg",
           "category": "Dairy and Milk",
@@ -377,6 +420,7 @@
           "old_price": 6.49
       },
       {
+          "Availability" : "Yes",
         "tag" : "sale",  
         "picture": "images/bakery/cat-2.jpeg",
           "category": "Bakery",
@@ -386,6 +430,7 @@
           "old_price": 4.49
       },
       {
+          "Availability" : "Yes",
         "tag" : "new",  
         "picture": "images/snack/cat-1.jpeg",
           "category": "Snacks",
@@ -395,6 +440,7 @@
           "old_price": 3.49
       },
       {
+          "Availability" : "Yes",
         "tag" : "sale",  
         "picture": "images/vegatable/cat-12.jpeg",
           "category": "Vegetables",
@@ -404,6 +450,7 @@
           "old_price": 3.29
       },
       {
+          "Availability" : "Yes",
          
         "picture": "images/Fruits/cat-17.jpg",
           "category": "Fruits",
@@ -413,6 +460,7 @@
           "old_price": 7.49
       },
       {
+          "Availability" : "Yes",
          
         "picture": "images/dry fruit/dry-8.jpg",
           "category": "Dry Fruits",
@@ -422,6 +470,7 @@
           "old_price": 11.99
       },
       {
+          "Availability" : "Yes",
          
         "picture": "images/Tea/cat-15.jpeg",
           "category": "Beverages",
@@ -431,6 +480,7 @@
           "old_price": 5.99
       },
       {
+          "Availability" : "Yes",
          
         "picture": "images/dairy and milk/cat-5.png",
           "category": "Dairy and Milk",
@@ -440,6 +490,7 @@
           "old_price": 8.49
       },
       {
+          "Availability" : "Yes",
          
         "picture": "images/bakery/cat-7.webp",
           "category": "Bakery",
@@ -449,6 +500,7 @@
           "old_price": 5.49
       },
       {
+          "Availability" : "Yes",
          
         "picture": "images/snack/cat-9.jpeg",
           "category": "Snacks",
@@ -458,6 +510,7 @@
           "old_price": 6.99
       },
       {
+          "Availability" : "Yes",
          
         "picture": "images/vegatable/cat-5.jpg",
           "category": "Vegetables",
@@ -467,6 +520,7 @@
           "old_price": 2.99
       },
       {
+          "Availability" : "Yes",
          
         "picture": "images/Fruits/cat-8.png",
           "category": "Fruits",
@@ -476,6 +530,7 @@
           "old_price": 6.49
       },
       {
+          "Availability" : "Yes",
          
         "picture": "images/dry fruit/dry-9.jpg",
           "category": "Dry Fruits",
@@ -485,6 +540,7 @@
           "old_price": 12.99
       },
       {
+          "Availability" : "Yes",
          
         "picture": "images/Tea/cat-1.jpeg",
           "category": "Beverages",
@@ -494,6 +550,7 @@
           "old_price": 8.49
       },
       {
+          "Availability" : "Yes",
          
         "picture": "images/dairy and milk/cat-6.jpg",
           "category": "Dairy and Milk",
@@ -503,6 +560,7 @@
           "old_price": 7.49
       },
       {
+          "Availability" : "Yes",
          
         "picture": "images/bakery/cat-4.jpeg",
           "category": "Bakery",
@@ -512,6 +570,7 @@
           "old_price": 5.49
       },
       {
+          "Availability" : "Yes",
          
         "picture": "images/snack/cat-5.jpeg",
           "category": "Snacks",
@@ -521,6 +580,7 @@
           "old_price": 4.99
       },
       {
+          "Availability" : "Yes",
          
         "picture": "images/vegatable/cat-6.jpg",
           "category": "Vegetables",
@@ -530,6 +590,7 @@
           "old_price": 3.29
       },
       {
+          "Availability" : "Yes",
         "tag" : "sale",  
         "picture": "images/Fruits/cat-4.png",
           "category": "Fruits",
@@ -539,6 +600,7 @@
           "old_price": 5.49
       },
       {
+          "Availability" : "Yes",
         "tag" : "sale",  
         "picture": "images/dry fruit/dry-17.jpeg",
           "category": "Dry Fruits",
@@ -548,6 +610,7 @@
           "old_price": 7.99
       },
       {
+          "Availability" : "Yes",
         "tag" : "new",  
         "picture": "images/Fruits/cat-10.jpg",
           "category": "Beverages",
@@ -557,6 +620,7 @@
           "old_price": 5.49
       },
       {
+          "Availability" : "Yes",
         "tag" : "best",  
         "picture": "images/dairy and milk/cat-8.png",
           "category": "Dairy and Milk",
@@ -566,6 +630,7 @@
           "old_price": 4.99
       },
       {
+          "Availability" : "Yes",
         "tag" : "best",  
         "picture": "images/bakery/cat-10.jpeg",
           "category": "Bakery",
@@ -575,6 +640,7 @@
           "old_price": 6.49
       },
       {
+          "Availability" : "Yes",
         "tag" : "best",  
         "picture": "images/snack/cat-10.jpeg",
           "category": "Snacks",
@@ -584,6 +650,7 @@
           "old_price": 7.49
       },
       {
+          "Availability" : "Yes",
           
         "picture": "images/vegatable/cat-3.jpg",
           "category": "Vegetables",
@@ -593,6 +660,7 @@
           "old_price": 2.49
       },
       {
+          "Availability" : "Yes",
           
         "picture": "images/Fruits/cat-12.jpg",
           "category": "Fruits",
@@ -602,6 +670,7 @@
           "old_price": 8.49
       },
       {
+          "Availability" : "Yes",
           
         "picture": "images/dry fruit/dry-4.jpg",
           "category": "Dry Fruits",
@@ -611,6 +680,7 @@
           "old_price": 5.99
       },
       {
+          "Availability" : "Yes",
           
         "picture": "images/Tea/cat-14.jpeg",
           "category": "Beverages",
@@ -620,6 +690,7 @@
           "old_price": 4.99
       },
       {
+          "Availability" : "Yes",
           
         "picture": "images/dairy and milk/cat-15.jpeg",
           "category": "Dairy and Milk",
@@ -629,6 +700,7 @@
           "old_price": 3.99
       },
       {
+          "Availability" : "Yes",
           
         "picture": "images/bakery/cat-2.jpeg",
           "category": "Bakery",
@@ -638,6 +710,7 @@
           "old_price": 4.99
       },
       {
+          "Availability" : "Yes",
           
         "picture": "images/snack/cat-5.jpeg",
           "category": "Snacks",
@@ -647,6 +720,7 @@
           "old_price": 3.99
       },
       {
+          "Availability" : "Yes",
           
         "picture": "images/vegatable/cat-2.jpg",
           "category": "Vegetables",
@@ -656,6 +730,7 @@
           "old_price": 1.99
       },
       {
+          "Availability" : "Yes",
           
         "picture": "images/Fruits/cat-3.png",
           "category": "Fruits",
@@ -665,6 +740,7 @@
           "old_price": 3.49
       },
       {
+          "Availability" : "Yes",
           
         "picture": "images/dry fruit/dry-4.jpg",
           "category": "Dry Fruits",
@@ -674,6 +750,7 @@
           "old_price": 8.99
       },
       {
+          "Availability" : "Yes",
           
         "picture": "images/Tea/cat-12.jpeg",
           "category": "Beverages",
@@ -683,6 +760,7 @@
           "old_price": 4.49
       },
       {
+          "Availability" : "Yes",
         "tag" : "best",  
         "picture": "images/snack/cat-10.jpeg",
           "category": "Dairy and Milk",
@@ -692,6 +770,7 @@
           "old_price": 7.49
       },
       {
+          "Availability" : "Yes",
         "tag" : "sale",  
         "picture": "images/bakery/cat-2.jpeg",
           "category": "Bakery",
@@ -701,6 +780,7 @@
           "old_price": 4.99
       },
       {
+          "Availability" : "Yes",
         "tag" : "best",  
         "picture": "images/snack/cat-1.jpeg",
           "category": "Snacks",
@@ -710,6 +790,7 @@
           "old_price": 5.49
       },
       {
+          "Availability" : "Yes",
         "tag" : "new",  
         "picture": "images/vegatable/cat-10.jpg",
           "category": "Vegetables",
@@ -719,6 +800,7 @@
           "old_price": 4.49
       },
       {
+          "Availability" : "Yes",
           
         "picture": "images/Fruits/cat-3.png",
           "category": "Fruits",
@@ -728,6 +810,7 @@
           "old_price": 5.49
       },
       {
+          "Availability" : "Yes",
           
         "picture": "images/dry fruit/dry-13.png",
           "category": "Dry Fruits",
@@ -737,6 +820,7 @@
           "old_price": 7.49
       },
       {
+          "Availability" : "Yes",
           
         "picture": "images/Tea/cat-5.jpeg",
           "category": "Beverages",
@@ -745,6 +829,7 @@
           "price": 3.99,
           "old_price": 5.49
       },  {
+          "Availability" : "Yes",
           
         "picture": "images/dairy and milk/cat-14.jpg",
           "category": "Snacks",
@@ -754,6 +839,7 @@
           "old_price": 4.99
       },
       {
+          "Availability" : "Yes",
         "tag" : "best",  
         "picture": "images/bakery/cat-2.jpeg",
           "category": "Vegetables",
@@ -763,6 +849,7 @@
           "old_price": 1.99
       },
       {
+          "Availability" : "Yes",
         "tag" : "sale",  
         "picture": "images/snack/cat-1.jpeg",
           "category": "Fruits",
@@ -772,6 +859,7 @@
           "old_price": 6.99
       },
       {
+          "Availability" : "Yes",
           
         "picture": "images/dairy and milk/cat-14.jpg",
           "category": "Dry Fruits",
@@ -781,6 +869,7 @@
           "old_price": 13.99
       },
       {
+          "Availability" : "Yes",
           
         "picture": "images/Fruits/cat-10.jpg",
           "category": "Beverages",
@@ -790,6 +879,7 @@
           "old_price": 4.99
       },
       {
+          "Availability" : "Yes",
           
         "picture": "images/dry fruit/dry-13.png",
           "category": "Dairy and Milk",
@@ -799,6 +889,7 @@
           "old_price": 5.99
       },
       {
+          "Availability" : "Yes",
         "tag" : "best",  
         "picture": "images/Fruits/cat-10.jpg",
           "category": "Bakery",
@@ -808,6 +899,7 @@
           "old_price": 3.99
       },
       {
+          "Availability" : "Yes",
         "tag" : "new",  
         "picture": "images/snack/cat-1.jpeg",
           "category": "Snacks",
@@ -817,6 +909,7 @@
           "old_price": 5.49
       },
       {
+          "Availability" : "Yes",
           
         "picture": "images/vegatable/cat-12.jpeg",
           "category": "Vegetables",
@@ -826,6 +919,7 @@
           "old_price": 2.99
       },
       {
+          "Availability" : "Yes",
           
         "picture": "images/Fruits/cat-27.jpg",
           "category": "Fruits",
@@ -835,6 +929,7 @@
           "old_price": 6.49
       },
       {
+          "Availability" : "Yes",
           
         "picture": "images/dry fruit/dry-9.jpg",
           "category": "Dry Fruits",
@@ -844,6 +939,7 @@
           "old_price": 8.49
       },
       {
+          "Availability" : "Yes",
           
         "picture": "images/Tea/cat-15.jpeg",
           "category": "Beverages",
@@ -853,6 +949,7 @@
           "old_price": 6.99
       },
       {
+          "Availability" : "Yes",
           
         "picture": "images/dairy and milk/cat-15.jpeg",
           "category": "Dairy and Milk",
@@ -862,6 +959,7 @@
           "old_price": 7.99
       },
       {
+          "Availability" : "Yes",
           
         "picture": "images/bakery/cat-2.jpeg",
           "category": "Bakery",
@@ -871,6 +969,7 @@
           "old_price": 4.99
       },
       {
+          "Availability" : "Yes",
           
         "picture": "images/snack/cat-5.jpeg",
           "category": "Snacks",
@@ -880,6 +979,7 @@
           "old_price": 4.99
       },
       {
+          "Availability" : "Yes",
           
         "picture": "images/vegatable/cat-2.jpg",
           "category": "Vegetables",
@@ -889,6 +989,7 @@
           "old_price": 3.29
       },
       {
+          "Availability" : "Yes",
           
         "picture": "images/Fruits/cat-12.jpg",
           "category": "Fruits",
@@ -898,6 +999,7 @@
           "old_price": 7.49
       },
       {
+          "Availability" : "Yes",
         "tag" : "best",  
         "picture": "images/dry fruit/dry-17.jpeg",
           "category": "Dry Fruits",
@@ -907,6 +1009,7 @@
           "old_price": 11.99
       },
       {
+          "Availability" : "Yes",
         "tag" : "sale",  
         "picture": "images/Tea/cat-14.jpeg",
           "category": "Beverages",
@@ -916,6 +1019,7 @@
           "old_price": 5.99
       },
       {
+          "Availability" : "Yes",
         
         "picture": "images/dairy and milk/cat-15.jpeg",
           "category": "Dairy and Milk",
@@ -925,6 +1029,7 @@
           "old_price": 8.99
       },
       {
+          "Availability" : "Yes",
           
         "picture": "images/bakery/cat-2.jpeg",
           "category": "Bakery",
@@ -934,6 +1039,7 @@
           "old_price": 7.49
       },
       {
+          "Availability" : "Yes",
         "tag" : "new",  
         "picture": "images/snack/cat-5.jpeg",
           "category": "Snacks",
@@ -943,6 +1049,7 @@
           "old_price": 3.99
       },
       {
+          "Availability" : "Yes",
           
         "picture": "images/vegatable/cat-6.jpg",
           "category": "Vegetables",
@@ -952,6 +1059,7 @@
           "old_price": 3.49
       },
       {
+          "Availability" : "Yes",
         
         "picture": "images/Fruits/cat-27.jpg",
           "category": "Fruits",
@@ -961,6 +1069,7 @@
           "old_price": 6.49
       },
       {
+          "Availability" : "Yes",
        
         "picture": "images/dry fruit/dry-9.jpg",
           "category": "Dry Fruits",
@@ -970,6 +1079,7 @@
           "old_price": 8.99
       },
         {
+            "Availability" : "Yes",
             "tag" : "best",
             "picture": "images/Tea/cat-1.jpeg",
             "category": "Beverages",
@@ -979,6 +1089,7 @@
             "old_price": 4.99
         },
         {
+            "Availability" : "Yes",
             "tag" : "sale",
             "picture": "images/snack/cat-10.jpeg",
             "category": "Dairy and Milk",
@@ -988,6 +1099,7 @@
             "old_price": 7.49
         },
         {
+            "Availability" : "Yes",
             "tag" : "sale",
             "picture": "images/bakery/cat-10.jpeg",
             "category": "Bakery",
@@ -997,6 +1109,7 @@
             "old_price": 4.49
         },
         {
+            "Availability" : "Yes",
             "tag" : "new",
             "picture": "images/snack/cat-1.jpeg",
             "category": "Snacks",
@@ -1006,6 +1119,7 @@
             "old_price": 3.99
         },
         {
+            "Availability" : "Yes",
             
             "picture": "images/vegatable/cat-10.jpg",
             "category": "Vegetables",
@@ -1015,6 +1129,7 @@
             "old_price": 4.49
         },
         {
+            "Availability" : "Yes",
             
             "picture": "images/Fruits/cat-3.png",
             "category": "Fruits",
@@ -1024,6 +1139,7 @@
             "old_price": 8.49
         },
         {
+            "Availability" : "Yes",
             
             "picture": "images/dry fruit/dry-4.jpg",
             "category": "Dry Fruits",
@@ -1033,6 +1149,7 @@
             "old_price": 9.99
         },
         {
+            "Availability" : "Yes",
             
             "picture": "images/Tea/cat-12.jpeg",
             "category": "Beverages",
@@ -1042,6 +1159,7 @@
             "old_price": 3.49
         },
         {
+            "Availability" : "Yes",
             
             "picture": "images/dairy and milk/cat-15.jpeg",
             "category": "Dairy and Milk",
@@ -1051,6 +1169,7 @@
             "old_price": 5.99
         },
         {
+            "Availability" : "Yes",
             
             "picture": "images/bakery/cat-4.jpeg",
             "category": "Bakery",
@@ -1060,6 +1179,7 @@
             "old_price": 3.99
         },
         {
+            "Availability" : "Yes",
             
             "picture": "images/snack/cat-5.jpeg",
             "category": "Snacks",
@@ -1069,6 +1189,7 @@
             "old_price": 5.49
         },
         {
+            "Availability" : "Yes",
             
             "picture": "images/vegatable/cat-10.jpg",
             "category": "Vegetables",
@@ -1078,6 +1199,7 @@
             "old_price": 2.99
         },
         {
+            "Availability" : "Yes",
             "tag" : "best",
             "picture": "images/Fruits/cat-3.png",
             "category": "Fruits",
@@ -1087,6 +1209,7 @@
             "old_price": 6.99
         },
         {
+            "Availability" : "Yes",
             "tag" : "new",
             "picture": "images/dry fruit/dry-8.jpg",
             "category": "Dry Fruits",
