@@ -12,7 +12,7 @@ import { Button } from "@mui/material";
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 
 
-const WishlistPage = ({data , removeFromWishlist}) =>{
+const WishlistPage = ({data , removeFromWishlist , clearWishlist}) =>{
     return(
         <>
         <div className="breadcrumWrapper mb-4">
@@ -42,7 +42,7 @@ const WishlistPage = ({data , removeFromWishlist}) =>{
                                 <h3 className='hd mb-3'> Your Wishlist</h3>
                                  <p> There are <span className='text-g '>{data.length}</span> Products in your Wishlist. </p>
                              </div>
-                                <span className='clearCart d-flex align-items-center cursor' > <DeleteOutlineOutlinedIcon/> Clear Wishlist</span>
+                                <span className='clearCart d-flex align-items-center cursor' onClick={()=>{clearWishlist()}}> <DeleteOutlineOutlinedIcon  /> Clear Wishlist</span>
                          </div>
 
                          <div className='cartWrapper'>

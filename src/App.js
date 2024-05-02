@@ -109,6 +109,11 @@ const handleAddToCart = (product) => {
 const removeProduct = (id) =>{
   setCartItems(cartItems.filter((item, index) => index!== id));
 }
+
+const clearCartItems = () =>{
+  setCartItems([]);
+}
+
 //----------------------------------------------------------------
 
 const addToWishlist = (product) => {
@@ -123,6 +128,10 @@ const removeFromWishlist = (id) =>{
   setWishlistItems(wishlistItems.filter((item, index) => index!== id));
 }
 
+const clearWishlist = () =>{
+  setWishlistItems([]);
+}
+
 //-------------------------------------------------------------------
 
 const addToCompare = (product) => {
@@ -135,6 +144,10 @@ const addToCompare = (product) => {
 
 const removeFromCompare = (id) =>{
   setCompareItems(compareItems.filter((item, index) => index!== id));
+}
+
+const clearCompareItems = () =>{
+  setCompareItems([]);
 }
 //-------------------------------------------------------------------
 
@@ -153,9 +166,9 @@ const removeFromCompare = (id) =>{
         <Route exact={true} path="/register" element={<RegisterPage/>} />
         <Route exact={true} path="/login/reset" element={<ResetPasswordReq/>} />
         <Route exact={true} path="/resetpwd" element={<ResetPassword/>} />
-        <Route exact={true} path="/cart" element={<CartPage data={cartItems} removeProduct={removeProduct} />} />
-        <Route exact={true} path="/wishlist" element={<WishlistPage data={wishlistItems} removeFromWishlist={removeFromWishlist} />} />
-        <Route exact={true} path="/compare" element={<ComparePage data={compareItems} removeFromCompare={removeFromCompare} />} />
+        <Route exact={true} path="/cart" element={<CartPage data={cartItems} removeProduct={removeProduct} clearCartItems={clearCartItems} />} />
+        <Route exact={true} path="/wishlist" element={<WishlistPage data={wishlistItems} removeFromWishlist={removeFromWishlist} clearWishlist={clearWishlist} />} />
+        <Route exact={true} path="/compare" element={<ComparePage data={compareItems} removeFromCompare={removeFromCompare} clearCompareItems={clearCompareItems} />} />
         <Route exact={true} path="*" element={<NotFound/>} />
       </Routes>
       <Footer/>

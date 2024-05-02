@@ -24,7 +24,7 @@ import Upi from '../../assets/images/payments/upi-icon.png';
 import './style.css';
 
 
-const CartPage = ({data, removeProduct})=>{
+const CartPage = ({data, removeProduct , clearCartItems})=>{
 
 console.log(data);
   const [showFirstContent, setShowFirstContent] = useState(true);
@@ -88,7 +88,7 @@ console.log(data);
                                 <h3 className='hd mb-2'> Your Cart</h3>
                                  <p> There are <span className='text-g '>{data.length}</span> Products in your Cart. </p>
                              </div>
-                                <span className='clearCart d-flex align-items-center cursor' > <DeleteOutlineOutlinedIcon/> Clear Cart</span>
+                                <span className='clearCart d-flex align-items-center cursor' onClick={()=>{clearCartItems()}}> <DeleteOutlineOutlinedIcon  /> Clear Cart</span>
                          </div>
 
                          <div className='cartWrapper'>

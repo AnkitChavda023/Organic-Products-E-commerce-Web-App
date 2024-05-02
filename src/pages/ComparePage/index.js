@@ -12,7 +12,7 @@ import CompareArrowsOutlinedIcon from '@mui/icons-material/CompareArrowsOutlined
 import { Button } from "@mui/material";
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 
-const ComparePage = ({data , removeFromCompare}) =>{
+const ComparePage = ({data , removeFromCompare , clearCompareItems}) =>{
     return (
       <>
         <div className="breadcrumWrapper mb-4">
@@ -47,9 +47,9 @@ const ComparePage = ({data , removeFromCompare}) =>{
                     Products in your Compare.{" "}
                   </p>
                 </div>
-                <span className="clearCart d-flex align-items-center cursor">
+                <span className="clearCart d-flex align-items-center cursor" onClick={()=>clearCompareItems()} >
                   {" "}
-                  <DeleteOutlineOutlinedIcon /> Clear Compare
+                  <DeleteOutlineOutlinedIcon  /> Clear Compare
                 </span>
               </div>
 
