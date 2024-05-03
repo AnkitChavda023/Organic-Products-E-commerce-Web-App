@@ -120,7 +120,7 @@ const Header = ({data , wishlistItems, compareItems}) => {
                    <div className="ml-auto d-flex align-items-center">
                           <Link to="/compare" className="text-black text-decoration-none">
                           <span>
-                               Compate
+                               Compare
                                <img src={iconCompare}/> 
                                <span className="badge bg-success rounded-circle"> {compareItems.length} </span> 
                          </span>
