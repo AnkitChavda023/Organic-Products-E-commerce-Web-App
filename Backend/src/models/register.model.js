@@ -1,5 +1,4 @@
-// import { lowerCase } from 'lodash';
-// import mongoose from 'mongoose';
+import mongoose from 'mongoose';
 
 const registerDataSchema = new mongoose.Schema(
     {
