@@ -8,13 +8,7 @@ const registerUser = asyncHandler( async (req,res)=>{
     const {username , mobile,email, password } = req.body;
     console.log(username);
 
-    // if(username === ""){
-    //     throw new ApiError(400, "username is required");
-    // }
-    // if(mobile === ""){
-    //     throw new ApiError(400, "username is required");
-    // }
-
+    
     //alternate method  for condition
 
     if(
@@ -23,7 +17,7 @@ const registerUser = asyncHandler( async (req,res)=>{
         throw new ApiError(400, "All fields must be required");
     }
 
-    const existedUser = UserData.findOne({
+    const existedUser = await UserData.findOne({
         $or:[{ username }, { mobile }, { email }]
     })
 
@@ -39,10 +33,10 @@ const registerUser = asyncHandler( async (req,res)=>{
     });
 
     const createdUser = await UserData.findById(user.id).select(
-        "-password -refreshToken"
+        "-password "
     );
 
-    if(createdUser){
+    if(!createdUser){
         throw new ApiError(500, "someting want wrong when registering a user" );
     }
 
@@ -50,6 +44,5 @@ const registerUser = asyncHandler( async (req,res)=>{
         new ApiResponse(201, "User Register successfully...", createdUser)
     )
 });
-
 
 export {registerUser};

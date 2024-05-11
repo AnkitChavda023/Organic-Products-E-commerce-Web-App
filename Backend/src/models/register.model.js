@@ -29,8 +29,7 @@ const registerDataSchema = new mongoose.Schema(
         }, 
         refreshToken : {
             type: String,
-            required: true,
-            unique: true,
+            
         },
     }, {timestamps: true});
 
@@ -45,8 +44,8 @@ const registerDataSchema = new mongoose.Schema(
        return await bcrypt.compare(password, this.password);
     }
 
-    registerDataSchema.methods.generateAccessToken =  function(){
-       return jwt.sign({
+    registerDataSchema.methods.generateAccessToken = async function(){
+       return await jwt.sign({
             _id: this._id,
             email: this.email,
             username: this.username,
@@ -54,12 +53,12 @@ const registerDataSchema = new mongoose.Schema(
         },
         process.env.ACCESS_TOKEN_SECRET,
         {
-            expiresIn: process.env.ACCESS_TOKEN_EXPITY
+            expiresIn: process.env.ACCESS_TOKEN_EXPIRY
         }
     )
     }
-    registerDataSchema.methods.generateRefreshToken = function(){
-        return jwt.sign({
+    registerDataSchema.methods.generateRefreshToken = async function(){
+        return await jwt.sign({
             _id: this._id,
         },
         process.env.REFRESH_TOKEN_SECRET,
