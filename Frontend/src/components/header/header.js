@@ -93,7 +93,7 @@ const Header = ({data , wishlistItems, compareItems}) => {
           <div className="row">
             {/* logo */}
             <div className="logo col-sm-1">
-              <img id="main-logo" src={Logo} />
+              <Link to="/" > <img  id="main-logo" src={Logo} /> </Link>
             </div>
 
             <div className="nav-sec-2 col-sm-5">

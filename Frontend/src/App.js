@@ -3,7 +3,6 @@ import './App.css';
 import React, { useEffect, useState } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Header from "./components/header/header";
-import Product from "../src/components/product/index";
 import Home from './pages/Home/index';
 import About from './pages/About/index';
 import Listing from './pages/Listing';
@@ -107,7 +106,7 @@ const handleAddToCart = (product) => {
 };
 
 const removeProduct = (id) =>{
-  setCartItems(cartItems.filter((item, index) => index!== id));
+  setCartItems(cartItems.filter((index) => index!== id));
 }
 
 const clearCartItems = () =>{
@@ -162,6 +161,7 @@ const clearCompareItems = () =>{
         <Route exact={true} path="/" element={<Home handleAddToCart={handleAddToCart} addToWishlist={addToWishlist} addToCompare={addToCompare} />} />
         <Route exact={true} path="/listing" element={<Listing handleAddToCart={handleAddToCart} addToWishlist={addToWishlist} addToCompare={addToCompare} />} />
         <Route exact={true} path="/detail" element={<DetailPage/>} />
+        <Route exact={true} path="/about" element={<About/>} />
         <Route exact={true} path="/login" element={<LoginPage/>} />
         <Route exact={true} path="/register" element={<RegisterPage/>} />
         <Route exact={true} path="/login/reset" element={<ResetPasswordReq/>} />

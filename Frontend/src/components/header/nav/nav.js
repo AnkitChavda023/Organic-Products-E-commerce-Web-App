@@ -43,7 +43,7 @@ const Nav = ({data})=> {
                                 </li>
                             {/* </ClickAwayListener> */}
                                 <li className="list-inline-item">
-                                    <Button> <Link>About </Link> </Button>
+                                    <Button> <Link to="/about" > About </Link> </Button>
                                 </li>
 
                                 <li className="list-inline-item">

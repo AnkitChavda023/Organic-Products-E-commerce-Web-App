@@ -1,6 +1,6 @@
 import mongoose from 'mongoose';
-import mongooseAggregatePaginate from 'mongoose-aggregate-paginate-v2';
-import jwt from 'jsonwebtoken';
+// import mongooseAggregatePaginate from 'mongoose-aggregate-paginate-v2';
+// import jwt from 'jsonwebtoken';
 import bcrypt from 'bcrypt';
 
 const registerDataSchema = new mongoose.Schema(
