@@ -12,13 +12,10 @@ import LocalFireDepartmentOutlinedIcon from '@mui/icons-material/LocalFireDepart
 const Nav = ({data})=> {
 
     useEffect(()=>{
-        // console.log(props.data);
     })
 
-    const [isdropdownMenuHome, setisdropdownMenuHome] = useState(false);
     const [isdropdownMenuPages, setisdropdownMenuPages] = useState(false);
     const [isdropdownMenuShop, setisdropdownMenuShop] = useState(false);
-    const [isdropdownMenuVendors,setisdropdownMenuVendors] = useState(false);
     const [isdropdownMenuBlog,setisdropdownMenuBlog] = useState(false);
 
     return(
@@ -50,13 +47,14 @@ const Nav = ({data})=> {
                                     <Button onClick={()=>setisdropdownMenuShop(!isdropdownMenuShop)}> <Link>Shop <KeyboardArrowDownIcon/> </Link> </Button>
                         
                                     <div className="dropdownMenuShop">
-                                        <Button> <Link to="/listing"> Single Product          </Link> </Button>
-                                        <Button> <Link to="/listing"> Shop Filter             </Link> </Button>
-                                        <Button> <Link to="/listing"> Shop Wishlist           </Link> </Button>
-                                        <Button> <Link to="/listing"> Shop Cart               </Link> </Button>
-                                        <Button> <Link to="/listing"> Checkout                </Link> </Button>
-                                        <Button> <Link to="/listing"> Compare                 </Link> </Button>
-                                        <Button> <Link to="/listing"> Shop Invoice            </Link> </Button>
+                                        <Button> <Link to="/listing"> All Product          </Link> </Button>
+                                        <Button> <Link to="/listing"> Vegetables              </Link> </Button>
+                                        <Button> <Link to="/listing"> Milks & Dairies           </Link> </Button>
+                                        <Button> <Link to="/listing"> Snacks               </Link> </Button>
+                                        <Button> <Link to="/listing"> Dry Fruits               </Link> </Button>
+                                        <Button> <Link to="/listing"> Fresh Fruits                 </Link> </Button>
+                                        <Button> <Link to="/listing"> Beverages            </Link> </Button>
+                                        <Button> <Link to="/listing"> Bakery            </Link> </Button>
                                     </div>
                                 
                                 </li>
@@ -69,7 +67,7 @@ const Nav = ({data})=> {
                                             <div className="col">
                                                 <h4 >Fruit & Vegetables</h4>
                                                 <ul  className="fruit fruit mt-3 mb-0">
-                                                    <li> <Link to="/about"> Meat & Poultry </Link></li>
+                                                    <li> <Link to="/about"> Fresh Fruits </Link></li>
                                                     <li> <Link to="/about"> Fresh Vegetables </Link></li>
                                                     <li> <Link to="/about"> Herbs & Seasonings </Link></li>
                                                     <li> <Link to="/about"> Cuts & Sprouts </Link></li>
@@ -123,14 +121,13 @@ const Nav = ({data})=> {
                                     <div className="dropdownMenuPages">
                                         <Button> <Link to="/about"> About Us    </Link> </Button>
                                         <Button> <Link to="/about"> Contact     </Link> </Button>
-                                        <Button> <Link to="/about"> My Account  </Link> </Button>
-                                        <Button> <Link to="/about"> Login       </Link> </Button>
-                                        <Button> <Link to="/about"> Forgot password </Link> </Button>
-                                        <Button> <Link to="/about"> Reset password </Link> </Button>
-                                        <Button> <Link to="/about"> Purchase Guide </Link> </Button>
+                                        <Button> <Link to="/login"> My Account  </Link> </Button>
+                                        <Button> <Link to="/login"> Login       </Link> </Button>
+                                        <Button> <Link to="/login/reset"> Forgot password </Link> </Button>
+                                        <Button> <Link to="/login/reset"> Reset password </Link> </Button>
                                         <Button> <Link to="/about"> Privacy Policy </Link> </Button>
                                         <Button> <Link to="/about"> Terms of Service </Link> </Button>
-                                        <Button> <Link to="/about"> 404 Page         </Link> </Button>
+                                        <Button> <Link to="*"> 404 Page         </Link> </Button>
                                     </div>
                                 {/* } */}
                                 </li>

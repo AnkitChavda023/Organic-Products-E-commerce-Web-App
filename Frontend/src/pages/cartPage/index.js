@@ -25,10 +25,11 @@ import './style.css';
 
 
 const CartPage = ({data, removeProduct , clearCartItems})=>{
-
-console.log(data);
+  
+ 
   const [showFirstContent, setShowFirstContent] = useState(true);
   const [showSecondContent, setShowSecondContent] = useState(false);
+
 
 
   const handleFirstButtonClick = () => {
@@ -138,7 +139,7 @@ console.log(data);
                                             </td>   
 
                                             <td className='subTotal '> ${item.price*inputValue} </td>
-                                            <td>   <DeleteOutlineOutlinedIcon className='delete' onClick={() =>  removeProduct(index)} /> </td>
+                                            <td>   <DeleteOutlineOutlinedIcon className='delete' onClick={() => removeProduct(index)} /> </td>
                                            
                                         </tr>
                                                 )
@@ -151,7 +152,7 @@ console.log(data);
 
                          <div className='subTotaldis d-flex align-items-center mb-2'>
                                 <h6 className='mb-0'>Subtotal</h6>
-                                <h5 className='mb-0'> <span  className='text-g '> $20.56</span></h5>
+                                <h5 className='mb-0'> <span  className='text-g '> $12.49 </span></h5>
                              </div> 
                              <div className='subTotaldis d-flex align-items-center mb-2'>
                                 <h6 className='mb-0'>Shipping</h6>
@@ -163,7 +164,7 @@ console.log(data);
                              </div> 
                              <div className='subTotaldis d-flex align-items-center mb-2'>
                                 <h6 className='mb-0'>Total</h6>
-                                <h3 className='mb-0'> <span  className='text-g'> $20.56</span></h3>
+                                <h3 className='mb-0'> <span  className='text-g'> $12.49</span></h3>
                              </div>
                              <hr/>
 

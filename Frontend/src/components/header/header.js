@@ -135,7 +135,7 @@ const Header = ({data , wishlistItems, compareItems}) => {
 
                          <Link to="/cart" className="text-black text-decoration-none">
                             <span>
-                                Cart
+                                Cart 
                                 <img src={iconCart}/> 
                                 <span className="badge bg-success rounded-circle"> {data.length} </span>
                            </span>
@@ -153,8 +153,8 @@ const Header = ({data , wishlistItems, compareItems}) => {
                                <Button> <Link to='/login'> <LoginOutlinedIcon/> Log in/Sign Up </Link> </Button>
                                <Button> <Link> <AccountCircleOutlinedIcon/> My Account </Link> </Button>
                                <Button> <Link> <PinDropOutlinedIcon/> Order Tracking  </Link> </Button>
-                               <Button> <Link> <DiscountOutlinedIcon/> My Voucher  </Link> </Button>
-                               <Button> <Link> <FavoriteBorderOutlinedIcon/> My Wishlist  </Link> </Button>
+                               <Button> <Link> <DiscountOutlinedIcon/> Admin   </Link> </Button>
+                               <Button> <Link to="/wishlist"> <FavoriteBorderOutlinedIcon/> My Wishlist  </Link> </Button>
                                <Button> <Link> <SettingsSuggestOutlinedIcon/> Setting  </Link> </Button>
                                <Button> <Link> <LogoutOutlinedIcon/> Sign out  </Link> </Button>
                         </div>

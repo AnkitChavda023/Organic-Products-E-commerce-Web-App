@@ -106,7 +106,7 @@ const handleAddToCart = (product) => {
 };
 
 const removeProduct = (id) =>{
-  setCartItems(cartItems.filter((index) => index!== id));
+  setCartItems(cartItems.filter((item, index) => index !== id));
 }
 
 const clearCartItems = () =>{
